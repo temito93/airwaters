@@ -36,6 +36,11 @@
       font-size: 18px;
       padding-bottom: 10px;
   }
+
+  .lang-a {
+    color: 	#8ab5e5;
+      font-size: 18px;
+  }
   
   .ul-li:nth-child(2),
   .ul-li:nth-child(3),
