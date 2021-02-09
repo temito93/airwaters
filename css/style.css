@@ -1,6 +1,6 @@
 
   .header-cont {
-    background-color:hsla(214, 71%, 70%, 0.5);
+    background: hsla(206, 23%, 94%, 1);
   }
 
 
@@ -24,7 +24,7 @@
   }
 
   .logo-a {
-      color: 	#fff;
+      color: 	#8ab5e5;
       font-weight: bolder;
       font-size: 40px;
   }
@@ -32,13 +32,13 @@
   
 
   .ul-a {
-      color: 	#fff;
+      color: 	#8ab5e5;
       font-size: 18px;
       padding-bottom: 10px;
   }
 
   .lang-a {
-    color: 	#fff;
+    color: 	#8ab5e5;
       font-size: 18px;
   }
   
@@ -60,7 +60,7 @@
       content: " ";
       width: 2px;
       height: 18px;
-      background-color: #fff;
+      background-color: #8ab5e5;
       display: inline-block;
       vertical-align: middle;
       margin-left: 5px;
@@ -68,7 +68,7 @@
   }
 
   .ul-a:hover {
-      border-bottom: 2px solid 	#fff;
+      border-bottom: 2px solid 	#8ab5e5;
     }
 
   .navigation {
