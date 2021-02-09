@@ -1,6 +1,42 @@
 
+  .header-cont {
+      background-color:hsla(214, 49%, 55%, 0.4);
+  }
+
+
+  .header-nav {
+      display: flex;
+      max-width: 1088px;
+      width: 100%;
+      margin: 0 auto;
+      padding-top: 20px;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+
+  .nav-ul {
+      display: flex;
+  }
+
+  .logo {
+      color: #fff;
+      font-weight: bolder;
+      font-size: 40px;
+  }
+
+  .ul-a {
+      color: #fff;
+      font-size: 20px;
+  }
   
-  
+  .ul-li:nth-child(2),
+  .ul-li:nth-child(3),
+  .ul-li:nth-child(4)
+   {
+      margin-left: 15px;
+  }
+
   .water {
     position: relative;
     width: 100vw;
@@ -8,7 +44,6 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
-    background-color:hsla(214, 49%, 55%, 0.4);
     transform: translate3d(0, 0, 0);
   }
   
