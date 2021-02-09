@@ -1,6 +1,6 @@
 
   .header-cont {
-      background-color:hsla(214, 49%, 55%, 0.4);
+      background-color:hsla(215, 63%, 55%, 0.4);
   }
 
 
@@ -27,7 +27,8 @@
 
   .ul-a {
       color: #fff;
-      font-size: 20px;
+      font-size: 18px;
+      padding-bottom: 10px;
   }
   
   .ul-li:nth-child(2),
@@ -36,6 +37,39 @@
    {
       margin-left: 15px;
   }
+
+  .ul-li:nth-child(5) {
+      margin-left: 30px;
+  }
+
+  
+
+  .ul-li:nth-child(5)::after {
+      content: " ";
+      width: 2px;
+      height: 18px;
+      background-color: #fff;
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 5px;
+      margin-right: 10px;
+  }
+
+  .ul-a:hover {
+      border-bottom: 2px solid #fff;
+  }
+
+  .navigation {
+      display: flex;
+  }
+
+    .nav-lang {
+        margin-left: 60px;
+        display: flex;
+        
+    }
+
+
 
   .water {
     position: relative;
