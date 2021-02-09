@@ -1,0 +1,173 @@
+// header navigation
+%header-nav-par {
+      display: flex;
+      max-width: 1088px;
+      width: $w-100;
+      margin: $m-center;
+      padding-top: $p-20;
+      justify-content: space-between;
+      align-items: center;
+}
+
+
+// li parameters
+%ul-li-par {
+    color: $soft-blue;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+
+// lang col-size
+%lang-par {
+    color: $soft-blue;
+    font-size: 18px;
+}
+
+
+// logo parameters
+%logo-par {
+    color: 	$soft-blue;
+    font-weight: bolder;
+    font-size: $p-40;
+}
+
+
+
+
+
+// Pseudo divider for lang
+%divider {
+    content: " ";
+      width: 1.5px;
+      height: 18px;
+      background-color: #8ab5e5;
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 5px;
+      margin-right: 10px;
+}
+
+
+// animation
+    // water
+    %water-animation {
+        position: relative;
+        height: 300px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        transform: translate3d(0, 0, 0);
+    }
+
+    // ripple-one
+    %ripple-one-animation {
+        position: absolute;
+        top: 20%;
+        max-width: 525px;
+        width: 100%;
+        height: 525px;
+        border-radius: 45%;
+        transform-origin: 50% 48%;
+        animation: water 5s infinite linear;
+        background: hsla(212, 64%, 72%, 0.7);
+        z-index: 3;
+        transform: translate3d(0, 0, 0);
+    }
+
+    // ripple-two
+    %ripple-two-animation {
+        position: absolute;
+        max-width: 500px;
+        width: 100%;
+        height: 500px;
+        border-radius: 42%;
+        top: 20%;
+        transform-origin: 50% 48%;
+        animation: water 4s infinite linear;
+        background: hsla(212, 64%, 72%, 0.4);
+        z-index: 2;
+    }
+
+    // ripple-three
+    %ripple-three-animation {
+        position: absolute;
+        top: 20%;
+        max-width: 650px;
+        width: 100%;
+        height: 650px;
+        border-radius: 45%;
+        transform-origin: 50% 48%;
+        animation: water 6s infinite linear;
+        background: hsla(214, 55%, 73%, 0.4);
+        z-index: 1; 
+    }
+
+    // text
+    %text-animation {
+        color: white;
+        position: absolute;
+        top: 50%;
+        font-size: 28px;
+        font-family: Source Sans Pro;
+        font-weight: 300;
+        text-align: center;
+        letter-spacing: 0.7em;
+        animation: spacing 4s ease-out alternate infinite;
+        animation-delay: -5s;
+        z-index: 6;
+    }
+
+
+    // section one
+    %sec-one-container {
+        max-width: 1088px;
+        width: $w-100;
+        margin: 100px auto 100px auto;
+    }
+
+        // h2
+        %sec-one-h2 {
+            color: $soft-blue;
+            font-size: 35px;
+        }
+
+        // product list
+        %product-list-par {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        // list
+        %list-par {
+            margin-top: 50px;
+            max-width: 500px;
+            width: $w-100;
+            height: 253px;
+            border-radius: 20px;
+            background: $soft-blue;
+        }
+
+        // product-p 
+        %product-p-par {
+            margin-left: 50%;
+            transform:translate(-50%);
+            margin-top: $p-20;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        // read-more
+        %read-more-par {
+            max-width: 112px;
+            width: $w-100;
+            margin-top: 180px;
+            margin-left: 400px;
+        }
+
+        // read-a 
+        %read-a-par {
+            color: #fff;
+            font-size: 10px;
+        }

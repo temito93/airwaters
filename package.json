@@ -1,0 +1,28 @@
+{
+  "name": "airwaters",
+  "version": "1.0.0",
+  "description": "Air Water Systems",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/temito93/airwaters.git"
+  },
+  "keywords": [
+    "Water",
+    "Systems"
+  ],
+  "author": "Temo Jincharadze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/temito93/airwaters/issues"
+  },
+  "homepage": "https://github.com/temito93/airwaters#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0"
+  }
+}

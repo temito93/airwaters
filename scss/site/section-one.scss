@@ -1,0 +1,32 @@
+.sec-one {
+    .sec-one-div {
+        @extend %sec-one-container;
+        
+        h2 {
+            @extend %sec-one-h2;
+        }
+
+        .product-list {
+            @extend %product-list-par;
+
+            .list {
+                @extend %list-par;
+
+                .box-one {
+                    .box-one-cont {
+                        display: flex;
+                        .product-p {
+                            @extend %product-p-par;
+                        }
+                    }
+                    .r-more {
+                        @extend %read-more-par;
+                        .read-a {
+                            @extend %read-a-par;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
