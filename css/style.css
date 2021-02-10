@@ -171,7 +171,8 @@ a {
   transform: translate(-50%);
   margin-top: 20px;
   color: #fff;
-  font-size: 22px; }
+  font-size: 25px;
+  white-space: nowrap; }
 
 .sec-one .sec-one-div .product-list .list .box-one .r-more {
   max-width: 112px;
@@ -181,7 +182,7 @@ a {
 
 .sec-one .sec-one-div .product-list .list .box-one .r-more .read-a {
   color: #fff;
-  font-size: 10px; }
+  font-size: 15px; }
 
 @keyframes water {
   from {
