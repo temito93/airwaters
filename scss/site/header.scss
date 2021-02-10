@@ -1,9 +1,11 @@
+
 .header-cont {
     background: $background-col;
 
     .header-nav {
         @extend %header-nav-par;
-
+        
+        
         .logo {
             height: $p-45;
             
@@ -46,6 +48,7 @@
         }
     }
     .water {
+        
         @extend %water-animation;
         
         .ripple-one {
