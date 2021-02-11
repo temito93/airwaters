@@ -1,9 +1,16 @@
 .sec-one {
     .sec-one-div {
         @extend %sec-one-container;
-        
-        h2 {
-            @extend %sec-one-h2;
+        .sec-one-h2 {
+            border-bottom: 2px dotted $soft-blue;
+            max-width: 1088px;
+            width: 100%;
+
+            h2 {
+                margin-bottom: 20px;
+                @extend %sec-one-h2;
+                
+            }
         }
 
         .product-list {

@@ -147,7 +147,7 @@ a {
   width: 100%;
   margin: 100px auto 100px auto; }
 
-.sec-one .sec-one-div h2 {
+.sec-one .sec-one-div .sec-one-h2 h2 {
   color: #8ab5e5;
   font-size: 40px;
   width: 285px;
@@ -194,7 +194,7 @@ a {
 
 .contact-section .contact-div .contact-form .form-title {
   margin-bottom: 80px;
-  border-bottom: 2px solid #8ab5e5;
+  border-bottom: 2px dotted #8ab5e5;
   width: 1088px; }
 
 .contact-section .contact-div .contact-form .container .form-container .user-cred .user-lab #unamel {
@@ -381,6 +381,13 @@ footer .footer-container .footer-cop {
   color: #fff;
   font-style: italic;
   font-size: 18px; }
+
+.sec-one .sec-one-div .sec-one-h2 {
+  border-bottom: 2px dotted #8ab5e5;
+  max-width: 1088px;
+  width: 100%; }
+  .sec-one .sec-one-div .sec-one-h2 h2 {
+    margin-bottom: 20px; }
 
 .sec-one .sec-one-div .product-list .list .box-one .box-one-cont {
   display: flex; }
