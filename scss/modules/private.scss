@@ -133,8 +133,9 @@
         %sec-one-h2 {
             color: $soft-blue;
             font-size: 40px;
-            width: 250px;
+            width: 285px;
             margin: 0 auto;
+            letter-spacing: 0.1em;
             
         }
 
@@ -178,3 +179,151 @@
             color: #fff;
             font-size: 15px;
         }
+
+
+
+// contact
+        // contact-div
+        %contact-div-par {
+            max-width: 1088px;
+            width: $w-100;
+            margin: $m-center;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+
+        // form
+             // contact title
+             %contact-title-par {
+                margin-bottom: 80px;
+                border-bottom: 2px solid $soft-blue;
+                width: 1088px;
+               
+            }
+
+
+            // user input
+            %user-input-par {
+                margin-right: 20px;
+                width: 250px;
+                height: 44px;
+                border-radius: 50px;
+                margin-top: 15px;
+                border: 2px solid #ddd;
+                color: rgb(143, 141, 141);
+                font-size: 15px;
+                padding-left: 5px;
+            }
+
+            // user input focus
+            %user-input-foc-par {
+                border-radius: 50px;
+                border-color: $soft-blue;
+                outline: none;
+            }
+
+            // surname input
+            %surname-input-par {
+                width: 250px;
+                height: 44px;
+                border-radius: 50px;
+                margin-top: 15px;
+                border: 2px solid #ddd;
+                color: rgb(143, 141, 141);
+                font-size: 15px;
+                padding-left: 5px;
+            }
+
+            //surname input focus
+            %surname-input-focus {
+                border-radius: 50px;
+                border-color: $soft-blue;
+                outline: none;
+            }
+
+
+            // email input
+            %email-input-par {
+                width: 520px;
+                height: 44px;
+                border-radius: 50px;
+                margin-top: 15px;
+                border: 2px solid #ddd;
+                color: rgb(143, 141, 141);
+                font-size: 15px;
+                padding-left: 5px;
+            }
+
+            // email focus
+            %email-focus-par {
+                border-radius: 50px;
+                border-color: $soft-blue;
+                outline: none;
+            }
+
+
+            // subject parameter
+            %subj-input-par {
+                width: 520px;
+                height: 44px;
+                border-radius: 50px;
+                margin-top: 15px;
+                border: 2px solid #ddd;
+                color: rgb(143, 141, 141);
+                font-size: 15px;
+                padding-left: 5px;
+            }
+            
+            // subject focus 
+            %subj-focus-par {
+                border-radius: 50px;
+                border-color: $soft-blue;
+                outline: none;
+            }
+
+
+            // text area parameter
+            %text-area-par {
+                width: 520px;
+                height: 250px;
+                margin-top: 15px;
+                border: 2px solid #ddd;
+                resize: none;
+                border-radius: 25px;
+                color: rgb(143, 141, 141);
+                font-size: 15px;
+                padding-left: 10px;
+            }
+
+            // text area focus
+            %text-area-focus-par {
+                border-color: $soft-blue;
+                outline: none;
+                border-radius: 25px;
+               
+            }
+
+            // submit parameter
+            %submit-par {
+                width: 160px;
+                height: 47px;
+                background-color: $soft-blue;
+                color: #fff;
+                border-radius: 50px;
+                border: 2px solid $soft-blue;
+                font-size: 17px;
+                cursor: pointer;
+            }
+
+            // submit hover {
+                %submit-hover {
+                    opacity: 0.8;
+                }
+
+           
+
+            
+
+            

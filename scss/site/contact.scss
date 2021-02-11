@@ -1,0 +1,140 @@
+.contact-section {
+    .contact-div {
+        margin-top: 80px;
+        @extend %contact-div-par;
+        .contact-form {
+            .form-title {
+                h2 {
+                    font-size:35px;
+                    color: $soft-blue;
+                    max-width: 190px;
+                    width: 100%;
+                    margin: 0 auto 20px auto;
+                    letter-spacing: 0.1em;
+                }
+                
+                @extend %contact-title-par;
+            }
+            .form-container{
+                max-width: 520px;
+                width: 100%;
+                .user-cred {
+                    display: flex;
+                    .user-lab {
+                        .user-div {
+                            label {
+                                color: $soft-blue;
+                                font-size: 18px;
+                                span {
+                                    color: #B20000;
+                                }
+
+                            }
+                        }
+                        
+                        #unamel {
+                            @extend %user-input-par;
+                        }
+
+                        #unamel:focus {
+                            @extend %user-input-foc-par;
+                        }
+
+                        
+                    }
+                    .surname-lab {
+                        .surname-div {
+                            label {
+                                color: $soft-blue;
+                                font-size: 18px;
+                                span {
+                                    color: #B20000;
+                                }
+                            }
+                        }
+                        #sname {
+                            @extend %surname-input-par;
+                        }
+
+                        #sname:focus {
+                            @extend %surname-input-focus;
+                        }
+                    }
+                }
+                .email-lab {
+                    margin-top: 20px;
+                    .email-div {
+                        label {
+                            color: $soft-blue;
+                            font-size: 18px;
+                            span {
+                                color: #B20000;
+                            }
+                        }
+                        
+                    }
+                    #etext {
+                        @extend %email-input-par;
+                    }
+
+                    #etext:focus {
+                        @extend %email-focus-par;
+                    }
+                }
+                .subj-lab {
+                    margin-top: 20px;
+                    .subj-div {
+                        label {
+                            color: $soft-blue;
+                            font-size: 18px;
+                            span {
+                                color: #B20000;
+                            }
+                        }
+                    }
+                    #stext {
+                        @extend %subj-input-par;
+                    }
+
+                    #stext:focus {
+                        @extend %subj-focus-par;
+                    }
+                }
+                .text-area-in {
+                    margin-top: 20px;
+                    .text-area-div {
+                        label {
+                            color: $soft-blue;
+                            font-size: 18px;
+                            span {
+                                color: #B20000;
+                            }
+                        }
+                    }
+    
+                    #atext {
+                       @extend %text-area-par;
+                    }
+
+                    #atext:focus {
+                        @extend %text-area-focus-par;
+                    }
+
+                    
+                }
+                .div-send {
+                    margin-top: 20px;
+                    #btext {
+                        @extend %submit-par;
+                    }
+
+                    #btext:hover {
+                        @extend %submit-hover;
+                    }
+                    
+                }
+            }
+            
+        }
+    }
+}
