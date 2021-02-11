@@ -335,8 +335,27 @@
                 color: $soft-blue;
                 font-size: 20px;
             }
+
+
+// footer 
+%footer-par {
+    background: $soft-blue;
+    width: 100%;
+    height: 260px;  
+    margin-top: 100px;
+}
            
-
+    // footer container
+    %f-container-par {
+        max-width: 1088px;
+        width: 100%;
+        margin: 0 auto;
+    }
             
-
+    // footer logo 
+    %footer-logo-par {
+        color: 	#fff;
+        font-weight: bolder;
+        font-size: $p-40;
+    }
             
