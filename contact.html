@@ -46,57 +46,69 @@
             <div class="form-title">
                 <h2> კონტაქტი </h2>
             </div>
-
-            <form class="form-container">
-                <div class="user-cred">
-                    <div class="user-lab">
-                        <div class="user-div">
-                            <label for="uname"> სახელი <span> * </span> </label>
+            <div class="container">
+                <form class="form-container">
+                    <div class="user-cred">
+                        <div class="user-lab">
+                            <div class="user-div">
+                                <label for="uname"> სახელი <span> * </span> </label>
+                            </div>
+                            <input type="text" id="unamel"  name="uname" required>
                         </div>
-                        <input type="text" id="unamel"  name="uname" required>
-                    </div>
 
-                    <div class="surname-lab">
-                        <div class="surname-div">
-                            <label for="sname"> გვარი <span> * </span> </label>
+                        <div class="surname-lab">
+                            <div class="surname-div">
+                                <label for="sname"> გვარი <span> * </span> </label>
+                            </div>
+                            <input type="text" id="sname"  name="sname" required>
                         </div>
-                        <input type="text" id="sname"  name="sname" required>
                     </div>
-                </div>
 
-                <div class="email-lab">
-                    <div class="email-div">
-                        <label for="etext"> ელ: ფოსტა <span> * </span> </label>
+                    <div class="email-lab">
+                        <div class="email-div">
+                            <label for="etext"> ელ: ფოსტა <span> * </span> </label>
+                        </div>
+                        <input type="email" name="etext" id="etext" required>
                     </div>
-                    <input type="email" name="etext" id="etext" required>
-                </div>
 
-                <div class="subj-lab">
-                    <div class="subj-div">
-                        <label for="stext"> სათაური <span> * </span> </label>
+                    <div class="subj-lab">
+                        <div class="subj-div">
+                            <label for="stext"> სათაური <span> * </span> </label>
+                        </div>
+                        <input type="text" id="stext" name="stext" required>
                     </div>
-                    <input type="text" id="stext" name="stext" required>
-                </div>
 
-                <div class="text-area-in">
-                    <div class="text-area-div">
-                        <label for="atext"> შეტყობინება <span> * </span> </label>
+                    <div class="text-area-in">
+                        <div class="text-area-div">
+                            <label for="atext"> შეტყობინება <span> * </span> </label>
+                        </div>
+                        <textarea id="atext" name="atext" required> </textarea>
                     </div>
-                    <textarea id="atext" name="atext" required> </textarea>
+
+                    <div class="div-send">
+                        <button type="submit" name="button" id="btext"> გაგზავნა  </button>
+                    </div>
+
+                    
+                </form>
+                
+                <div class="container-map-info">
+                    <div class="cont-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2977.53307286572!2d44.763109615436555!3d41.730593479234145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404472e6db548d95%3A0xa6d5c72f40450bc9!2s8%20Simon%20Kandelaki%20St%2C%20T&#39;bilisi!5e0!3m2!1sen!2sge!4v1613044050599!5m2!1sen!2sge"  aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <div class="cont-info">
+                         <div class="info-par">  ტელ: <a class="info-a " href="tel:+995577769"> (+995) 577 769 444  </a> </div>
+                         <div class="info-par"> ელ: ფოსტა:  <a class="info-a" href="mailto:contact@airwater.ge"> contact@airwater.ge </a> </div>
+                         <div class="info-par"> მის:  <a class="info-a" target="_Blank" href="https://www.google.com/maps/place/8+Simon+Kandelaki+St,+T'bilisi/@41.7305935,44.7631096,17z/data=!3m1!4b1!4m5!3m4!1s0x404472e6db548d95:0xa6d5c72f40450bc9!8m2!3d41.7305935!4d44.7652983"> ს.კანდელაკის 8/ა, თბილისი 0160 </a> </div>
+                    </div>
+
+
                 </div>
-
-                <div class="div-send">
-                    <button type="submit" name="button" id="btext"> გაგზავნა  </button>
-                </div>
-
-
-            </form>
-
-
+            </div>
 
         </div>
 
-
+        
 
 
 

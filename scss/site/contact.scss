@@ -15,35 +15,78 @@
                 
                 @extend %contact-title-par;
             }
-            .form-container{
-                max-width: 520px;
-                width: 100%;
-                .user-cred {
-                    display: flex;
-                    .user-lab {
-                        .user-div {
+            .container {
+                display: flex;
+                justify-content: space-between;
+                .form-container{
+                    max-width: 520px;
+                    width: 100%;
+                    .user-cred {
+                        display: flex;
+                        .user-lab {
+                            .user-div {
+                                label {
+                                    color: $soft-blue;
+                                    font-size: 18px;
+                                    span {
+                                        color: #B20000;
+                                    }
+
+                                }
+                            }
+                            
+                            #unamel {
+                                @extend %user-input-par;
+                            }
+
+                            #unamel:focus {
+                                @extend %user-input-foc-par;
+                            }
+
+                            
+                        }
+                        .surname-lab {
+                            .surname-div {
+                                label {
+                                    color: $soft-blue;
+                                    font-size: 18px;
+                                    span {
+                                        color: #B20000;
+                                    }
+                                }
+                            }
+                            #sname {
+                                @extend %surname-input-par;
+                            }
+
+                            #sname:focus {
+                                @extend %surname-input-focus;
+                            }
+                        }
+                    }
+                    .email-lab {
+                        margin-top: 20px;
+                        .email-div {
                             label {
                                 color: $soft-blue;
                                 font-size: 18px;
                                 span {
                                     color: #B20000;
                                 }
-
                             }
+                            
                         }
-                        
-                        #unamel {
-                            @extend %user-input-par;
-                        }
-
-                        #unamel:focus {
-                            @extend %user-input-foc-par;
+                        #etext {
+                            @extend %email-input-par;
                         }
 
-                        
+                        #etext:focus {
+                            @extend %email-focus-par;
+                        }
                     }
-                    .surname-lab {
-                        .surname-div {
+                    .subj-lab {
+                        margin-top: 20px;
+                        .subj-div {
                             label {
                                 color: $soft-blue;
                                 font-size: 18px;
@@ -52,89 +95,92 @@
                                 }
                             }
                         }
-                        #sname {
-                            @extend %surname-input-par;
+                        #stext {
+                            @extend %subj-input-par;
                         }
 
-                        #sname:focus {
-                            @extend %surname-input-focus;
+                        #stext:focus {
+                            @extend %subj-focus-par;
                         }
                     }
-                }
-                .email-lab {
-                    margin-top: 20px;
-                    .email-div {
-                        label {
-                            color: $soft-blue;
-                            font-size: 18px;
-                            span {
-                                color: #B20000;
+                    .text-area-in {
+                        margin-top: 20px;
+                        .text-area-div {
+                            label {
+                                color: $soft-blue;
+                                font-size: 18px;
+                                span {
+                                    color: #B20000;
+                                }
                             }
+                        }
+        
+                        #atext {
+                        @extend %text-area-par;
+                        }
+
+                        #atext:focus {
+                            @extend %text-area-focus-par;
+                        }
+
+                        
+                    }
+                    .div-send {
+                        margin-top: 20px;
+                        #btext {
+                            @extend %submit-par;
+                        }
+
+                        #btext:hover {
+                            @extend %submit-hover;
                         }
                         
                     }
-                    #etext {
-                        @extend %email-input-par;
-                    }
-
-                    #etext:focus {
-                        @extend %email-focus-par;
-                    }
                 }
-                .subj-lab {
-                    margin-top: 20px;
-                    .subj-div {
-                        label {
-                            color: $soft-blue;
-                            font-size: 18px;
-                            span {
-                                color: #B20000;
-                            }
+                .container-map-info {
+                    max-width: 500px;
+                    width: 100%;
+                    .cont-map {
+                        
+                        iframe {
+                            
+                            max-width: 500px;
+                            width: 100%;
+                            height: 300px;
+                            border: none;
                         }
                     }
-                    #stext {
-                        @extend %subj-input-par;
-                    }
+                    .cont-info {
+                        margin-top: 20px;
+                        .info-par {
+                            @extend %info-div-par;
+                            .info-a {
+                                @extend %info-a-par;
+                            }
+                            &:nth-child(1) .info-a {
+                                margin-left: 80px;
+                            }
 
-                    #stext:focus {
-                        @extend %subj-focus-par;
-                    }
-                }
-                .text-area-in {
-                    margin-top: 20px;
-                    .text-area-div {
-                        label {
-                            color: $soft-blue;
-                            font-size: 18px;
-                            span {
-                                color: #B20000;
+                            &:nth-child(2) .info-a {
+                                margin-left: 25px;
+                            }
+
+                            &:nth-child(3) .info-a {
+                                margin-left: 90px;
+                            }
+
+                            &:nth-child(2) {
+                                margin-top: 15px;
+                            }
+
+                            &:nth-child(3) {
+                                margin-top: 15px;
                             }
                         }
-                    }
-    
-                    #atext {
-                       @extend %text-area-par;
-                    }
 
-                    #atext:focus {
-                        @extend %text-area-focus-par;
                     }
-
-                    
                 }
-                .div-send {
-                    margin-top: 20px;
-                    #btext {
-                        @extend %submit-par;
-                    }
-
-                    #btext:hover {
-                        @extend %submit-hover;
-                    }
-                    
-                }
-            }
-            
+            }  
         }
     }
 }
