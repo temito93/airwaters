@@ -5,7 +5,9 @@
     .header-nav {
         @extend %header-nav-par;
         
-        
+        .w3-animate-left {
+            @extend %animation-left;
+        }
         .logo {
             height: $p-45;
             
@@ -15,6 +17,9 @@
         }
 
         .navigation {
+            .w3-animate-right {
+                @extend %animation-right;
+            }
             display: flex;
             nav {
                 .nav-ul {

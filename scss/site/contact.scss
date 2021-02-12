@@ -1,19 +1,25 @@
 .contact-section {
+    margin-bottom: 100px;
     .contact-div {
         margin-top: 80px;
         @extend %contact-div-par;
         .contact-form {
+            h2 {
+                font-size:30px;
+                color: $soft-blue;
+                max-width: 190px;
+                width: 100%;
+                margin: 0 auto 20px auto;
+                letter-spacing: 0.1em;
+            }
+            .w3-animate-bottom {
+                @extend %animation-bottom;
+            }
             .form-title {
-                h2 {
-                    font-size:35px;
-                    color: $soft-blue;
-                    max-width: 190px;
-                    width: 100%;
-                    margin: 0 auto 20px auto;
-                    letter-spacing: 0.1em;
-                }
-                
                 @extend %contact-title-par;
+            }
+            .w3-animate-left {
+                @extend %animation-left;
             }
             .container {
                 display: flex;
