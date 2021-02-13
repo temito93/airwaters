@@ -57,11 +57,14 @@ header {
         
 
     }
+    
     .header {
+        
         @extend %header;
         .inner-header {
             @extend %inner-header;
         }
+        
         div {
             .waves {
                 @extend %waves;
