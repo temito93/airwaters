@@ -3,6 +3,7 @@
       display: flex;
       max-width: 1088px;
       width: $w-100;
+      height: 90px;
       margin: $m-center;
       padding-top: $p-20;
       justify-content: space-between;
@@ -15,8 +16,11 @@
 // li parameters
 %ul-li-par {
     color: $soft-blue;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
     font-size: 18px;
     padding-bottom: 10px;
+    letter-spacing: 0.1em;
 }
 
 
@@ -52,74 +56,41 @@
 
 
 // animation
-    // water
-    %water-animation {
-        position: relative;
-        height: 300px;
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
-        transform: translate3d(0, 0, 0);
+    //// HEADER ANIMATION WAVES
+        %header {
+            position:relative;
+            text-align:center;
+            background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+            color:white;
+        }
+
+        %inner-header {
+            height:65vh;
+            width:100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 700;
+            font-size: 48px;
+            letter-spacing: 0.1em;
+        }
+
+        %waves {
+            position:relative;
+            width: 100%;
+            height:15vh;
+            margin-bottom:-7px;
+            min-height:100px;
+            max-height:150px;
+        }
+
         
-    }
+    
 
-    // ripple-one
-    %ripple-one-animation {
-        position: absolute;
-        top: 20%;
-        max-width: 525px;
-        width: 100%;
-        height: 525px;
-        border-radius: 45%;
-        transform-origin: 50% 48%;
-        animation: water 5s infinite linear;
-        background: hsla(212, 64%, 72%, 0.7);
-        z-index: 3;
-        transform: translate3d(0, 0, 0);
-    }
-
-    // ripple-two
-    %ripple-two-animation {
-        position: absolute;
-        max-width: 500px;
-        width: 100%;
-        height: 500px;
-        border-radius: 42%;
-        top: 20%;
-        transform-origin: 50% 48%;
-        animation: water 4s infinite linear;
-        background: hsla(212, 64%, 72%, 0.4);
-        z-index: 2;
-    }
-
-    // ripple-three
-    %ripple-three-animation {
-        position: absolute;
-        top: 20%;
-        max-width: 650px;
-        width: 100%;
-        height: 650px;
-        border-radius: 45%;
-        transform-origin: 50% 48%;
-        animation: water 6s infinite linear;
-        background: hsla(214, 55%, 73%, 0.4);
-        z-index: 1; 
-    }
-
-    // text
-    %text-animation {
-        color: white;
-        position: absolute;
-        top: 50%;
-        font-size: 28px;
-        font-family: Source Sans Pro;
-        font-weight: 300;
-        text-align: center;
-        letter-spacing: 0.7em;
-        animation: spacing 4s ease-out alternate infinite;
-        animation-delay: -5s;
-        z-index: 6;
-    }
 
 
     // section one

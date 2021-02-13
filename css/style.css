@@ -51,30 +51,34 @@ table {
 a {
   text-decoration: none; }
 
-.header-cont .header-nav {
+header .header-cont .header-nav {
   display: flex;
   max-width: 1088px;
   width: 100%;
+  height: 90px;
   margin: 0 auto;
   padding-top: 20px;
   justify-content: space-between;
   align-items: center; }
 
-.header-cont .header-nav .navigation nav .nav-ul .ul-li .ul-a {
+header .header-cont .header-nav .navigation nav .nav-ul .ul-li .ul-a {
   color: #8ab5e5;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
   font-size: 18px;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  letter-spacing: 0.1em; }
 
-.header-cont .header-nav .navigation nav .nav-ul .ul-li .lang-a {
+header .header-cont .header-nav .navigation nav .nav-ul .ul-li .lang-a {
   color: #8ab5e5;
   font-size: 18px; }
 
-.header-cont .header-nav .logo .logo-a {
+header .header-cont .header-nav .logo .logo-a {
   color: #8ab5e5;
   font-weight: bolder;
   font-size: 40px; }
 
-.header-cont .header-nav .navigation nav .nav-ul .ul-li:nth-child(5)::after {
+header .header-cont .header-nav .navigation nav .nav-ul .ul-li:nth-child(5)::after {
   content: " ";
   width: 1.5px;
   height: 18px;
@@ -84,63 +88,33 @@ a {
   margin-left: 5px;
   margin-right: 10px; }
 
-.header-cont .water {
+header .header {
   position: relative;
-  height: 300px;
-  overflow: hidden;
+  text-align: center;
+  background: linear-gradient(60deg, #543ab7 0%, #00acc1 100%);
+  color: white; }
+
+header .header .inner-header {
+  height: 65vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
-  transform: translate3d(0, 0, 0); }
-
-.header-cont .water .ripple-one {
-  position: absolute;
-  top: 20%;
-  max-width: 525px;
-  width: 100%;
-  height: 525px;
-  border-radius: 45%;
-  transform-origin: 50% 48%;
-  animation: water 5s infinite linear;
-  background: rgba(138, 181, 229, 0.7);
-  z-index: 3;
-  transform: translate3d(0, 0, 0); }
-
-.header-cont .water .ripple-two {
-  position: absolute;
-  max-width: 500px;
-  width: 100%;
-  height: 500px;
-  border-radius: 42%;
-  top: 20%;
-  transform-origin: 50% 48%;
-  animation: water 4s infinite linear;
-  background: rgba(138, 181, 229, 0.4);
-  z-index: 2; }
-
-.header-cont .water .ripple-three {
-  position: absolute;
-  top: 20%;
-  max-width: 650px;
-  width: 100%;
-  height: 650px;
-  border-radius: 45%;
-  transform-origin: 50% 48%;
-  animation: water 6s infinite linear;
-  background: rgba(148, 181, 224, 0.4);
-  z-index: 1; }
-
-.header-cont .water .text {
-  color: white;
-  position: absolute;
-  top: 50%;
-  font-size: 28px;
-  font-family: Source Sans Pro;
-  font-weight: 300;
+  align-items: center;
   text-align: center;
-  letter-spacing: 0.7em;
-  animation: spacing 4s ease-out alternate infinite;
-  animation-delay: -5s;
-  z-index: 6; }
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  letter-spacing: 0.1em; }
+
+header .header div .waves {
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  margin-bottom: -7px;
+  min-height: 100px;
+  max-height: 150px; }
 
 .sec-one .sec-one-div {
   max-width: 1088px;
@@ -318,27 +292,19 @@ footer .footer-container .footer-wrapper .footer-logo .footer-logo-a {
   position: relative;
   animation: animatebottomh2 1s; }
 
-.header-cont .header-nav .w3-animate-left, .sec-one .sec-one-div .w3-animate-left, .contact-section .contact-div .contact-form .w3-animate-left, .about-section .about-container .w3-animate-left {
+header .header-cont .header-nav .w3-animate-left, .sec-one .sec-one-div .w3-animate-left, .contact-section .contact-div .contact-form .w3-animate-left, .about-section .about-container .w3-animate-left {
   position: relative;
   animation: animateleft 1s; }
 
-.header-cont .header-nav .navigation .w3-animate-right {
+header .header-cont .header-nav .navigation .w3-animate-right {
   position: relative;
   animation: animateright 1s; }
 
-@keyframes water {
-  from {
-    transform: rotate(0deg); }
-  to {
-    transform: rotate(360deg); } }
-
-@keyframes spacing {
+@keyframes move-forever {
   0% {
-    letter-spacing: 0.8em;
-    margin-left: 0.7em; }
+    transform: translate3d(-90px, 0, 0); }
   100% {
-    letter-spacing: 1em;
-    margin-left: 1em; } }
+    transform: translate3d(85px, 0, 0); } }
 
 @keyframes animateleft {
   from {
@@ -372,20 +338,37 @@ footer .footer-container .footer-wrapper .footer-logo .footer-logo-a {
     bottom: 0;
     opacity: 1; } }
 
-.header-cont {
-  background: #ecf0f3; }
-  .header-cont .header-nav .logo {
-    height: 45px; }
-  .header-cont .header-nav .navigation {
-    display: flex; }
-    .header-cont .header-nav .navigation nav .nav-ul {
+header {
+  width: 100vw;
+  height: 100vh; }
+  header .header-cont {
+    background: #fff; }
+    header .header-cont .header-nav .logo {
+      height: 45px; }
+    header .header-cont .header-nav .navigation {
       display: flex; }
-      .header-cont .header-nav .navigation nav .nav-ul .ul-li:nth-child(2), .header-cont .header-nav .navigation nav .nav-ul .ul-li:nth-child(3), .header-cont .header-nav .navigation nav .nav-ul .ul-li:nth-child(4) {
-        margin-left: 20px; }
-      .header-cont .header-nav .navigation nav .nav-ul .ul-li:nth-child(5) {
-        margin-left: 30px; }
-      .header-cont .header-nav .navigation nav .nav-ul .ul-li .ul-a:hover {
-        border-bottom: 2px solid #8ab5e5; }
+      header .header-cont .header-nav .navigation nav .nav-ul {
+        display: flex; }
+        header .header-cont .header-nav .navigation nav .nav-ul .ul-li:nth-child(2), header .header-cont .header-nav .navigation nav .nav-ul .ul-li:nth-child(3), header .header-cont .header-nav .navigation nav .nav-ul .ul-li:nth-child(4) {
+          margin-left: 20px; }
+        header .header-cont .header-nav .navigation nav .nav-ul .ul-li:nth-child(5) {
+          margin-left: 30px; }
+        header .header-cont .header-nav .navigation nav .nav-ul .ul-li .ul-a:hover {
+          border-bottom: 2px solid #8ab5e5; }
+  header .header div .waves .parallax use {
+    animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite; }
+    header .header div .waves .parallax use:nth-child(1) {
+      animation-delay: -2s;
+      animation-duration: 7s; }
+    header .header div .waves .parallax use:nth-child(2) {
+      animation-delay: -3s;
+      animation-duration: 10s; }
+    header .header div .waves .parallax use:nth-child(3) {
+      animation-delay: -4s;
+      animation-duration: 13s; }
+    header .header div .waves .parallax use:nth-child(4) {
+      animation-delay: -5s;
+      animation-duration: 20s; }
 
 footer .footer-container .footer-wrapper {
   padding-top: 50px;

@@ -5,6 +5,11 @@
 	<title>Air Water</title>
 	<meta charset="utf-8">
     
+    <!-- Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    
+    
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
@@ -19,26 +24,38 @@
             <div class="navigation">
                 <nav class="w3-animate-right"> 
                     <ul class="nav-ul">
-                        <li class="ul-li"> <a class="ul-a" href="index.html"> მთავარი </a> </li>
-                        <li class="ul-li"> <a class="ul-a" href="about.html"> ჩვენს შესახებ </a> </li>
-                        <li class="ul-li"> <a class="ul-a" href="#"> პროდუქტი </a> </li>
-                        <li class="ul-li"> <a class="ul-a" href="contact.html"> კონტაქტი </a> </li>
-                        <li class="ul-li"> <a class="lang-a" href="index.html"> ge </a> </li>
-                        <li class="ul-li"> <a class="lang-a" href="#"> en </a> </li>
+                        <li class="ul-li"> <a class="ul-a" href="index.html"> Home </a> </li>
+                        <li class="ul-li"> <a class="ul-a" href="about.html"> About us </a> </li>
+                        <li class="ul-li"> <a class="ul-a" href="#"> Products </a> </li>
+                        <li class="ul-li"> <a class="ul-a" href="contact.html"> Contact </a> </li>
                     </ul>
 
                 </nav>
 
             </div>
         </div>
+    </div>
+    
+    <div class="header">
 
-
+        <!--Content before waves-->
+        <div class="inner-header">
+            <h1> Air Water Systems </h1>
+        </div>
         
-        <div class="water">
-            <div class="ripple-one"></div>
-            <div class="ripple-two"></div>   
-            <div class="ripple-three"></div>
-            <div class="text"> <h1> Air Water </h1> </div>
+        <!--Waves Container-->
+        <div>
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                    <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                </g>
+            </svg>
         </div>
     </div>
 </header>

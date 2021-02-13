@@ -1,13 +1,13 @@
-  @keyframes water {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
+// header animations
+
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
   }
-  
-  
-  @keyframes spacing {
-    0% {	letter-spacing: 0.8em; margin-left: 0.7em; }
-    100% { letter-spacing: 1em; margin-left: 1em;}
+  100% { 
+    transform: translate3d(85px,0,0);
   }
+}
 
 
 // w3 animations
