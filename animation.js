@@ -2,8 +2,13 @@ jQuery(document).ready(function() {
 	"use strick"
 
 	$('.header').ripples({
-	dropRadius: 30,
-	perturbance: 0.01,
+	resolution: 512,
+	dropRadius: 15,
+	perturbance: 0.04,
 	
 	});
+
+	
 });
+
+
