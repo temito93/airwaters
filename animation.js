@@ -1,5 +1,5 @@
 jQuery(document).ready(function() {
-	"user strick"
+	"use strick"
 
 	$('.header').ripples({
 	dropRadius: 30,
