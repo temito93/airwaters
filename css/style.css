@@ -306,6 +306,11 @@ header .header-cont .header-nav .navigation .w3-animate-right {
   100% {
     transform: translate3d(85px, 0, 0); } }
 
+@keyframes ripples {
+  to {
+    transform: scale(4);
+    opacity: 0; } }
+
 @keyframes animateleft {
   from {
     left: -700px;

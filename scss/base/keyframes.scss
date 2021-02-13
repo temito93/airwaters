@@ -9,6 +9,13 @@
   }
 }
 
+@keyframes ripples {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
 
 // w3 animations
   @keyframes animateleft{
