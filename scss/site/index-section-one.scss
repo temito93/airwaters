@@ -1,14 +1,44 @@
 .sec-one {
+    
+      
     .sec-one-div {
+        position: relative;
+        .hide-l {
+            opacity: 0;
+            left: -100%;
+        }
+        .show-l {
+            opacity: 1;
+            left: 0;
+        }
+        .hide-b {
+            opacity: 0;
+            bottom: -100px;
+        }
+
+        .show-b {
+            opacity: 1;
+            bottom: 0;
+        }
+        
+        
         @extend %sec-one-container;
-        h2 {
+
+        
+        .sec-one-h2-div {
+            position: relative;
             margin-bottom: 20px;
-            @extend %sec-one-h2;
+            transition: all 0.8s;
+            h2 {
+                @extend %sec-one-h2;
+            }
         }
         .w3-animate-bottom {
             @extend %animation-bottomh2;
         }
         .sec-one-h2 {
+            position: relative;
+            transition: all 0.8s;
             border-bottom: 2px solid $soft-blue;
             max-width: 1088px;
             width: 100%;
@@ -18,26 +48,138 @@
         }
 
         .product-list {
-            @extend %product-list-par;
+                @extend %product-list-par;
 
-            .list {
-                @extend %list-par;
+                .show-box-l {
+                    opacity: 1;
+                    left: 0;
 
-                .box-one {
-                    .box-one-cont {
-                        display: flex;
-                        .product-p {
-                            @extend %product-p-par;
+                }
+
+                .hide-box-l {
+                    opacity: 0;
+                    left: -100%;
+                }
+
+                .show-box-r {
+                    opacity: 1;
+                    right: 0;
+
+                }
+
+                .hide-box-r {
+                    opacity: 0;
+                    right: -100%;
+                }
+
+                .show-box-l-bottom {
+                    opacity: 1;
+                    left: 0;
+                }
+
+                .hide-box-l-bottom {
+                    opacity: 0;
+                    left: -100%;
+                }
+
+
+                .show-box-r-bottom {
+                    opacity: 1;
+                    right: 0;
+                }
+
+                .hide-box-r-bottom {
+                    opacity: 0;
+                    right: -100%;
+                }
+                .list-one {
+                    position: relative;
+                    transition: all 0.9s;
+                    @extend %list-par;
+
+                    .box-one {
+                        
+                        .box-one-cont {
+                            
+                            display: flex;
+                            .product-p {
+                                @extend %product-p-par;
+                            }
                         }
-                    }
-                    .r-more {
-                        @extend %read-more-par;
-                        .read-a {
-                            @extend %read-a-par;
+                        .r-more {
+                            @extend %read-more-par;
+                            .read-a {
+                                @extend %read-a-par;
+                            }
                         }
                     }
                 }
-            }
+                .list-two {
+                    position: relative;
+                    transition: all 0.9s;
+                    @extend %list-par;
+
+                    .box-two {
+                        
+                        .box-two-cont {
+                            display: flex;
+                            .product-p {
+                                @extend %product-p-par;
+                            }
+                        }
+                        .r-more {
+                            @extend %read-more-par;
+                            .read-a {
+                                @extend %read-a-par;
+                            }
+                        }
+                    }
+                }
+                
+            
+                display: flex;
+                justify-content: space-between;
+                .list-three {
+                    position: relative;
+                    transition: all 0.9s;
+                    @extend %list-par;
+
+                    .box-three {
+                        .box-three-cont {
+                            display: flex;
+                            .product-p {
+                                @extend %product-p-par;
+                            }
+                        }
+                        .r-more {
+                            @extend %read-more-par;
+                            .read-a {
+                                @extend %read-a-par;
+                            }
+                        }
+                    }
+                }
+                .list-four {
+                    position: relative;
+                    transition: all 0.9s;
+                    @extend %list-par;
+
+                    .box-four {
+                        .box-four-cont {
+                            display: flex;
+                            .product-p {
+                                @extend %product-p-par;
+                            }
+                        }
+                        .r-more {
+                            @extend %read-more-par;
+                            .read-a {
+                                @extend %read-a-par;
+                            }
+                        }
+                    }
+                }
+            
         }
     }
 }

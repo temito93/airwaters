@@ -5,6 +5,8 @@
 	<title>Air Water</title>
 	<meta charset="utf-8">
     <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
+    
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -70,60 +72,65 @@
         
 </header>
 <section class="sec-one">
-    <div class="sec-one-div">
-        <h2 class="w3-animate-bottom"> Our products </h2>
-        <div class="w3-animate-left sec-one-h2">
+    <div  class="sec-one-div hide">
+        <div id="myIDtwo" class="sec-one-h2-div hide-b">
+            <h2> Our products </h2>
+        </div>
+        <div id="myID" class="sec-one-h2 hide">
             
         </div>
         <div class="product-list">
-
-            <div class="list">
-                <div class="box-one">
-                    <div class="box-one-cont">
-                        <!-- <img src="#" alt="img"> -->
-                        <p class="product-p"> ასაწყობი რეზერვუარები </p>
-                    </div>
-                    <div class="r-more">
-                        <a class="read-a" href="#"> დეტალურად... </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="list">
-                <div class="box-one">
-                    <div class="box-one-cont">
-                        <!-- <img src="#" alt="img"> -->
-                        <p class="product-p"> ქიმიკატები </p>
-                    </div>
-                    <div class="r-more">
-                        <a class="read-a" href="#"> დეტალურად... </a>
+            
+                <div id="listONE" class="list-one hide-box-l">
+                    <div class="box-one">
+                        <div class="box-one-cont">
+                            <!-- <img src="#" alt="img"> -->
+                            <p class="product-p"> ასაწყობი რეზერვუარები </p>
+                        </div>
+                        <div class="r-more">
+                            <a class="read-a" href="#"> დეტალურად... </a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="list">
-                <div class="box-one">
-                    <div class="box-one-cont">
-                        <!-- <img src="#" alt="img"> -->
-                        <p class="product-p"> პომპები </p>
-                    </div>
-                    <div class="r-more">
-                        <a class="read-a" href="#"> დეტალურად... </a>
+                <div id="listTWO" class="list-two hide-box-r">
+                    <div class="box-two">
+                        <div class="box-two-cont">
+                            <!-- <img src="#" alt="img"> -->
+                            <p class="product-p"> ქიმიკატები </p>
+                        </div>
+                        <div class="r-more">
+                            <a class="read-a" href="#"> დეტალურად... </a>
+                        </div>
                     </div>
                 </div>
-            </div>
+            
+           
 
-            <div class="list">
-                <div class="box-one">
-                    <div class="box-one-cont">
-                        <!-- <img src="#" alt="img"> -->
-                        <p class="product-p"> ფილტრები </p>
-                    </div>
-                    <div class="r-more">
-                        <a class="read-a" href="#"> დეტალურად... </a>
+                <div id="listTHREE" class="list-three hide-box-l-bottom">
+                    <div class="box-three">
+                        <div class="box-three-cont">
+                            <!-- <img src="#" alt="img"> -->
+                            <p class="product-p"> პომპები </p>
+                        </div>
+                        <div class="r-more">
+                            <a class="read-a" href="#"> დეტალურად... </a>
+                        </div>
                     </div>
                 </div>
-            </div>
+
+                <div id="listFOUR" class="list-four hide-box-r-bottom">
+                    <div class="box-four">
+                        <div class="box-four-cont">
+                            <!-- <img src="#" alt="img"> -->
+                            <p class="product-p"> ფილტრები </p>
+                        </div>
+                        <div class="r-more">
+                            <a class="read-a" href="#"> დეტალურად... </a>
+                        </div>
+                    </div>
+                </div>
+            
                 
                 
 
@@ -166,8 +173,14 @@
     </div>
 
 </footer>
-
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script src="h2-scroll.js"></script>
+<script src="scroll-list-t.js"></script>
+<script src="scroll-list-r.js"></script>
+<script src="scroll-list-bottom-l.js"></script>
+<script src="scroll-list-bottom-r.js"></script>
+<script src="scrolldown.js"></script>
 <script src="toogle.js"></script>
 <script src="jquery.ripples.js"></script>
 <script src="animation.js"></script>       
