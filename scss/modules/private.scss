@@ -1,9 +1,20 @@
+
+
+
+
+
+
+
+
+
+
 // header navigation
 %header-nav-par {
       display: flex;
       max-width: 1088px;
       width: $w-100;
-      height: 90px;
+      padding-top: 20px;
+      padding-bottom: 20px;
       margin: $m-center;
       justify-content: space-between;
       align-items: center;
@@ -12,12 +23,20 @@
 }
 
 
+// navigation hover effect
+%hover-effect {
+    transition-property: all;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+}
+
+
 // li parameters
 %ul-li-par {
     color: $soft-blue;
-    font-family: 'Nunito', sans-serif;
+   
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     padding-bottom: 10px;
     letter-spacing: 0.1em;
 }
@@ -26,7 +45,7 @@
 // lang col-size
 %lang-par {
     color: $soft-blue;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 
@@ -72,7 +91,7 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            font-family: 'Nunito', sans-serif;
+            
             font-weight: 700;
             font-size: 48px;
             letter-spacing: 0.1em;
@@ -101,7 +120,7 @@
 
         // h2
         %sec-one-h2 {
-            color: $soft-blue;
+            color: $blue-col;
             font-size: 40px;
             width: 285px;
             margin: 0 auto;
@@ -123,7 +142,7 @@
             width: $w-100;
             height: 253px;
             border-radius: 20px;
-            background: $soft-blue;
+            background: $blue-col;
         }
 
         // product-p 
@@ -168,7 +187,7 @@
              // contact title
              %contact-title-par {
                 margin-bottom: 80px;
-                border-bottom: 3px dotted $soft-blue;
+                border-bottom: 3px solid $blue-col;
                 width: 1088px;
                
             }
@@ -190,7 +209,7 @@
             // user input focus
             %user-input-foc-par {
                 border-radius: 50px;
-                border-color: $soft-blue;
+                border-color: $blue-col;
                 outline: none;
             }
 
@@ -209,7 +228,7 @@
             //surname input focus
             %surname-input-focus {
                 border-radius: 50px;
-                border-color: $soft-blue;
+                border-color: $blue-col;
                 outline: none;
             }
 
@@ -309,7 +328,7 @@
 
 // footer 
 %footer-par {
-    background: $soft-blue;
+    background: $blue-col;
     width: 100%;
     height: 260px;  
     
