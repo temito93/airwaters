@@ -339,10 +339,9 @@ body {
     body header .header-cont {
       background: #fff;
       position: fixed;
-      top: 0;
-      left: 0;
       width: 100%;
-      z-index: 9; }
+      z-index: 9;
+      opacity: 0.97; }
       body header .header-cont .header-nav {
         display: flex; }
         body header .header-cont .header-nav .burger-icon {

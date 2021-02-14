@@ -6,11 +6,9 @@ body {
         .header-cont {
             background: #fff;
             position: fixed;
-            top: 0;
-            left: 0;
             width: 100%;
             z-index: 9;
-            
+            opacity: 0.97;
             .header-nav {
                 display: flex;
                 
