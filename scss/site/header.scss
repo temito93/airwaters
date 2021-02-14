@@ -10,6 +10,7 @@ body {
             left: 0;
             width: 100%;
             z-index: 9;
+            
             .header-nav {
                 display: flex;
                 
@@ -131,7 +132,7 @@ body {
         }
         
         .header {
-            
+            padding-top: 125px;
             @extend %header;
             .inner-header {
                 @media (max-width: 600px) {
