@@ -1,12 +1,14 @@
 body {
     font-family: 'Roboto', sans-serif;
-    header {
+    .index-header {
         
         width: 100vw;
         height: 100vh;
         .header-cont {
             background: #fff;
             position: fixed;
+            top: 0;
+            left: 0;
             width: 100%;
             z-index: 9;
             opacity: 0.97;
