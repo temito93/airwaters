@@ -287,11 +287,6 @@ body .index-header .header-cont .header-nav .header-wrapper-media .navigation .w
   100% {
     transform: translate3d(85px, 0, 0); } }
 
-@keyframes ripples {
-  to {
-    transform: scale(4);
-    opacity: 0; } }
-
 @keyframes animateleft {
   from {
     left: -700px;
