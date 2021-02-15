@@ -3,6 +3,9 @@
       
     .sec-one-div {
         position: relative;
+
+        // sec-one-h2 (h2 border bottom element) animation
+        // scrolldown.js file
         .hide-l {
             opacity: 0;
             left: -100%;
@@ -11,6 +14,12 @@
             opacity: 1;
             left: 0;
         }
+        // end of sec-one-h2 border bottom animation
+
+
+
+        // section-one h2 scroll animation 
+        //h2-scroll.js file
         .hide-b {
             opacity: 0;
             bottom: -100px;
@@ -20,6 +29,7 @@
             opacity: 1;
             bottom: 0;
         }
+        // end on section-one h2 scroll animation 
         
         
         @extend %sec-one-container;
@@ -49,7 +59,8 @@
 
         .product-list {
                 @extend %product-list-par;
-
+                // list-one animation parameters
+                // scroll-list-t.js file
                 .show-box-l {
                     opacity: 1;
                     left: 0;
@@ -60,7 +71,13 @@
                     opacity: 0;
                     left: -100%;
                 }
+                // end of list-one animation parameters
 
+
+
+
+                // list-two animation parameters
+                // scroll-list-r.js file
                 .show-box-r {
                     opacity: 1;
                     right: 0;
@@ -71,7 +88,13 @@
                     opacity: 0;
                     right: -100%;
                 }
+                // end of list-two animation parameters
 
+
+
+
+                // list-three animation parameters
+                // scroll-list-bottom-l.js file
                 .show-box-l-bottom {
                     opacity: 1;
                     left: 0;
@@ -81,8 +104,13 @@
                     opacity: 0;
                     left: -100%;
                 }
+                // end of list-three animation parameters
 
 
+
+
+                // list-four animation parameters
+                // scroll-list-bottom-r.js file
                 .show-box-r-bottom {
                     opacity: 1;
                     right: 0;
@@ -92,6 +120,9 @@
                     opacity: 0;
                     right: -100%;
                 }
+                // end of list-four animation parameters
+
+
                 .list-one {
                     position: relative;
                     transition: all 0.9s;
