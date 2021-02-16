@@ -35,10 +35,10 @@
 
 
 // lang col-size
-%lang-par {
-    color: $soft-blue;
-    font-size: 16px;
-}
+// %lang-par {
+//     color: $soft-blue;
+//     font-size: 16px;
+// }
 
 
 // logo parameters
@@ -221,9 +221,10 @@
              // contact title
              %contact-title-par {
                 margin-bottom: 80px;
-                border-bottom: 2px solid $blue-col;
                 width: 1088px;
-               
+                height: 100px;
+                background: linear-gradient(60deg, rgb(69, 94, 141) 0%, rgba(0,172,193,1) 100%);
+                
             }
 
 
@@ -244,7 +245,7 @@
             // user input focus
             %user-input-foc-par {
                 
-                border-color: $soft-blue;
+                border-color: $blue-col;
                 outline: none;
             }
 
@@ -281,7 +282,7 @@
 
             // email focus
             %email-focus-par {
-                border-color: $soft-blue;
+                border-color: $blue-col;
                 outline: none;
             }
 
@@ -301,7 +302,7 @@
             // subject focus 
             %subj-focus-par {
 
-                border-color: $soft-blue;
+                border-color: $blue-col;
                 outline: none;
             }
 
@@ -320,7 +321,7 @@
 
             // text area focus
             %text-area-focus-par {
-                border-color: $soft-blue;
+                border-color: $blue-col;
                 outline: none;
 
                
@@ -330,10 +331,10 @@
             %submit-par {
                 width: 160px;
                 height: 47px;
-                background-color: $soft-blue;
+                background-color: $blue-col;
                 color: #fff;
                 border-radius: 50px;
-                border: 2px solid $soft-blue;
+                border: 2px solid $blue-col;
                 font-size: 17px;
                 cursor: pointer;
             }
@@ -348,13 +349,13 @@
             // contact info
             %info-div-par {
                 color: rgb(165, 164, 164);
-                font-size: 19px;
+                font-size: 14px;
                 
             }
 
             %info-a-par {
-                color: $soft-blue;
-                font-size: 20px;
+                color: $blue-col;
+                font-size: 16px;
             }
 
 
