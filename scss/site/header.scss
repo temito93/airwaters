@@ -18,7 +18,7 @@ body {
                 .burger-icon {
                     display: none;
                     @media (max-width: 700px) {
-                            color: $soft-blue;
+                            color: $blue-col;
                             display: block;
                             font-size: 25px;
                             cursor:pointer;
@@ -113,9 +113,9 @@ body {
                                             border-bottom: 2px solid $soft-blue;
                                         }
                                     }
-                                    .lang-a {
-                                        @extend %lang-par;
-                                    }
+                                    // .lang-a {
+                                    //     @extend %lang-par;
+                                    // }
                                 }
                             }
                             .nav-ul.open-menu {

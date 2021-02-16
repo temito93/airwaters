@@ -15,7 +15,7 @@
                 .burger-icon {
                     display: none;
                     @media (max-width: 700px) {
-                            color: $soft-blue;
+                            color: $blue-col;
                             display: block;
                             font-size: 25px;
                             cursor:pointer;
@@ -110,9 +110,9 @@
                                             border-bottom: 2px solid $soft-blue;
                                         }
                                     }
-                                    .lang-a {
-                                        @extend %lang-par;
-                                    }
+                                    // .lang-a {
+                                    //     @extend %lang-par;
+                                    // }
                                 }
                             }
                             .nav-ul.open-menu {
@@ -148,42 +148,59 @@
         
     }    
     .about-section {
-        margin-top: 350px;
+        margin-top: 250px;
         margin-bottom: 400px;
         .about-container {
             max-width: 1088px;
             width: $w-100;
             margin: 100px auto 0 auto;
-            h2 {
-                font-size:30px;
-                color: $soft-blue;
-                letter-spacing: 0.1em;
-            }
-            .w3-animate-left {
-                @extend %animation-left;
-            }
-            .h2-border {
-                max-width: 900px;
-                width: 100%;
-                border-bottom: 2px solid $soft-blue;
-                margin-bottom: 50px;
-                margin-top: 20px;
-            }
-            .w3-animate-bottom {
-                @extend %animation-bottom;
-            }
+            display: flex;
+            justify-content: space-between;
+            
+            // h2 {
+            //     font-size:30px;
+            //     color: $soft-blue;
+            //     letter-spacing: 0.1em;
+            // }
+            // .w3-animate-left {
+            //     @extend %animation-left;
+            // }
+            // .h2-border {
+            //     max-width: 900px;
+            //     width: 100%;
+            //     border-bottom: 2px solid $soft-blue;
+            //     margin-bottom: 50px;
+            //     margin-top: 20px;
+            // }
+            // .w3-animate-bottom {
+            //     @extend %animation-bottom;
+            // }
+
             .about-info {
-                max-width: 900px;
+                padding-top: 50px;
+                max-width: 500px;
                 width: 100%;
                 .about-p {
                     font-size:20px;
-                    color: $soft-blue;
+                    color: $blue-col;
                     letter-spacing: 0.1em;
                     line-height: 1.5em;
                     &:nth-child(1),
                     &:nth-child(2) {
                         margin-bottom: 15px;
                     }
+                }
+            }
+            .water {
+        
+                @extend %water-animation;
+                
+                .ripple-one {
+                    @extend %ripple-one-animation;
+                }
+                
+                .text {
+                    @extend %text-animation;
                 }
             }
         }

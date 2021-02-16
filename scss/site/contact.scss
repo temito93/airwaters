@@ -14,7 +14,7 @@
             .burger-icon {
                 display: none;
                 @media (max-width: 700px) {
-                        color: $soft-blue;
+                        color: $blue-col;
                         display: block;
                         font-size: 25px;
                         cursor:pointer;
@@ -109,9 +109,9 @@
                                         border-bottom: 2px solid $soft-blue;
                                     }
                                 }
-                                .lang-a {
-                                    @extend %lang-par;
-                                }
+                                // .lang-a {
+                                //     @extend %lang-par;
+                                // }
                             }
                         }
                         .nav-ul.open-menu {
@@ -152,24 +152,27 @@
 
 
 .contact-section {
-    margin-top: 300px;
+    margin-top: 200px;
     margin-bottom: 200px;
     .contact-div {
         margin-top: 80px;
         @extend %contact-div-par;
         .contact-form {
-            h2 {
-                font-size:30px;
-                color: $soft-blue;
-                max-width: 190px;
-                width: 100%;
-                margin: 0 auto 20px auto;
-                letter-spacing: 0.1em;
-            }
+            
             .w3-animate-bottom {
                 @extend %animation-bottom;
             }
             .form-title {
+                h2 {
+                    font-size:30px;
+                    color: #fff;
+                    max-width: 190px;
+                    width: 100%;
+                    margin: 0 auto 20px auto;
+                    letter-spacing: 0.1em;
+                    padding-top: 3%;
+                    
+                }
                 @extend %contact-title-par;
             }
             .w3-animate-left {
@@ -186,7 +189,7 @@
                         .user-lab {
                             .user-div {
                                 label {
-                                    color: $soft-blue;
+                                    color: $blue-col;
                                     font-size: 18px;
                                     span {
                                         color: #B20000;
@@ -208,7 +211,7 @@
                         .surname-lab {
                             .surname-div {
                                 label {
-                                    color: $soft-blue;
+                                    color: $blue-col;
                                     font-size: 18px;
                                     span {
                                         color: #B20000;
@@ -228,7 +231,7 @@
                         margin-top: 20px;
                         .email-div {
                             label {
-                                color: $soft-blue;
+                                color: $blue-col;
                                 font-size: 18px;
                                 span {
                                     color: #B20000;
@@ -248,7 +251,7 @@
                         margin-top: 20px;
                         .subj-div {
                             label {
-                                color: $soft-blue;
+                                color: $blue-col;
                                 font-size: 18px;
                                 span {
                                     color: #B20000;
@@ -267,7 +270,7 @@
                         margin-top: 20px;
                         .text-area-div {
                             label {
-                                color: $soft-blue;
+                                color: $blue-col;
                                 font-size: 18px;
                                 span {
                                     color: #B20000;
@@ -318,15 +321,15 @@
                                 @extend %info-a-par;
                             }
                             &:nth-child(1) .info-a {
-                                margin-left: 80px;
+                                margin-left: 65px;
                             }
 
                             &:nth-child(2) .info-a {
-                                margin-left: 60px;
+                                margin-left: 48px;
                             }
 
                             &:nth-child(3) .info-a {
-                                margin-left: 40px;
+                                margin-left: 30px;
                             }
 
                             &:nth-child(2) {

@@ -14,6 +14,7 @@
 }
 
 
+
 // navigation hover effect
 %hover-effect {
     transition-property: all;
@@ -24,7 +25,7 @@
 
 // li parameters
 %ul-li-par {
-    color: $soft-blue;
+    color: $blue-col;
    
     font-weight: 400;
     font-size: 16px;
@@ -34,15 +35,15 @@
 
 
 // lang col-size
-%lang-par {
-    color: $soft-blue;
-    font-size: 16px;
-}
+// %lang-par {
+//     color: $soft-blue;
+//     font-size: 16px;
+// }
 
 
 // logo parameters
 %logo-par {
-    color: 	$soft-blue;
+    color: 	$blue-col;
     font-weight: bolder;
     font-size: $p-40;
 }
@@ -52,16 +53,58 @@
 
 
 // Pseudo divider for lang
-%divider {
-    content: " ";
-      width: 1.5px;
-      height: 18px;
-      background-color: #8ab5e5;
-      display: inline-block;
-      vertical-align: middle;
-      margin-left: 5px;
-      margin-right: 10px;
-}
+// %divider {
+//     content: " ";
+//       width: 1.5px;
+//       height: 18px;
+//       background-color: #8ab5e5;
+//       display: inline-block;
+//       vertical-align: middle;
+//       margin-left: 5px;
+//       margin-right: 10px;
+// }
+
+//about content
+    //water animation
+    %water-animation {
+        position: relative;
+        max-width: 425px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        transform: translate3d(0, 0, 0);
+        
+    }
+
+    //ripple one animation
+    %ripple-one-animation {
+        position: absolute;
+        top: 0;
+        max-width: 425px;
+        width: 100%;
+        height: 425px;
+        border-radius: 45%;
+        transform-origin: 50% 48%;
+        animation: water 5s infinite linear;
+        background: linear-gradient(60deg, #7087d4 0%, #00acc1 100%);
+        z-index: 5;
+        transform: translate3d(0, 0, 0);
+    }
+
+    //text animation
+    %text-animation {
+        color: #fff;
+        position: absolute;
+        top: 35%;
+        font-size: 25px;
+        font-weight: 300;
+        text-align: center;
+        letter-spacing: 0.7em;
+        animation: spacing 4s ease-out alternate infinite;
+        animation-delay: -5s;
+        z-index: 6;
+        line-height: 2em;
+    }
 
 
 // animation
@@ -111,7 +154,7 @@
 
         // h2
         %sec-one-h2 {
-            color: $soft-blue;
+            color: $blue-col;
             font-size: 40px;
             width: 285px;
             margin: 0 auto;
@@ -178,9 +221,10 @@
              // contact title
              %contact-title-par {
                 margin-bottom: 80px;
-                border-bottom: 2px solid $soft-blue;
                 width: 1088px;
-               
+                height: 100px;
+                background: linear-gradient(60deg, rgb(69, 94, 141) 0%, rgba(0,172,193,1) 100%);
+                
             }
 
 
@@ -201,7 +245,7 @@
             // user input focus
             %user-input-foc-par {
                 
-                border-color: $soft-blue;
+                border-color: $blue-col;
                 outline: none;
             }
 
@@ -238,7 +282,7 @@
 
             // email focus
             %email-focus-par {
-                border-color: $soft-blue;
+                border-color: $blue-col;
                 outline: none;
             }
 
@@ -258,7 +302,7 @@
             // subject focus 
             %subj-focus-par {
 
-                border-color: $soft-blue;
+                border-color: $blue-col;
                 outline: none;
             }
 
@@ -270,7 +314,6 @@
                 margin-top: 15px;
                 border: 2px solid #ddd;
                 resize: none;
-
                 color: rgb(143, 141, 141);
                 font-size: 15px;
                 
@@ -278,7 +321,7 @@
 
             // text area focus
             %text-area-focus-par {
-                border-color: $soft-blue;
+                border-color: $blue-col;
                 outline: none;
 
                
@@ -288,10 +331,10 @@
             %submit-par {
                 width: 160px;
                 height: 47px;
-                background-color: $soft-blue;
+                background-color: $blue-col;
                 color: #fff;
                 border-radius: 50px;
-                border: 2px solid $soft-blue;
+                border: 2px solid $blue-col;
                 font-size: 17px;
                 cursor: pointer;
             }
@@ -306,13 +349,13 @@
             // contact info
             %info-div-par {
                 color: rgb(165, 164, 164);
-                font-size: 19px;
+                font-size: 14px;
                 
             }
 
             %info-a-par {
-                color: $soft-blue;
-                font-size: 20px;
+                color: $blue-col;
+                font-size: 16px;
             }
 
 
