@@ -784,7 +784,8 @@ footer .footer-container .footer-cop {
 
 .about-section {
   margin-top: 250px;
-  margin-bottom: 400px; }
+  margin-bottom: 400px;
+  height: 100vh; }
   .about-section .about-container {
     max-width: 1088px;
     width: 100%;
