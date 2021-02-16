@@ -462,8 +462,8 @@ body {
           animation-delay: -5s;
           animation-duration: 20s; }
 
-footer .footer-container {
-  margin-bottom: 0; }
+footer {
+  height: 260px; }
   footer .footer-container .footer-wrapper {
     padding-top: 50px;
     display: flex;
