@@ -15,7 +15,7 @@
                 .burger-icon {
                     display: none;
                     @media (max-width: 700px) {
-                            color: $soft-blue;
+                            color: $blue-col;
                             display: block;
                             font-size: 25px;
                             cursor:pointer;
@@ -182,7 +182,7 @@
                 width: 100%;
                 .about-p {
                     font-size:20px;
-                    color: $soft-blue;
+                    color: $blue-col;
                     letter-spacing: 0.1em;
                     line-height: 1.5em;
                     &:nth-child(1),

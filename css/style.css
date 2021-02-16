@@ -62,7 +62,7 @@ body .index-header .header-cont .header-nav .header-wrapper-media, .contact-head
   align-items: center; }
 
 body .index-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li .ul-a, .contact-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li .ul-a, .about-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li .ul-a {
-  color: #8ab5e5;
+  color: #5e96d6;
   font-weight: 400;
   font-size: 16px;
   padding-bottom: 10px;
@@ -73,7 +73,7 @@ body .index-header .header-cont .header-nav .header-wrapper-media .navigation na
   font-size: 16px; }
 
 body .index-header .header-cont .header-nav .header-wrapper-media .logo .logo-a, .contact-header .header-cont .header-nav .header-wrapper-media .logo .logo-a, .about-header .header-cont .header-nav .header-wrapper-media .logo .logo-a {
-  color: #8ab5e5;
+  color: #5e96d6;
   font-weight: bolder;
   font-size: 40px; }
 
@@ -144,7 +144,7 @@ body .index-header .header div .waves {
   margin: 100px auto 100px auto; }
 
 .sec-one .sec-one-div .sec-one-h2-div h2 {
-  color: #8ab5e5;
+  color: #5e96d6;
   font-size: 40px;
   width: 285px;
   margin: 0 auto;
@@ -190,7 +190,7 @@ body .index-header .header div .waves {
 
 .contact-section .contact-div .contact-form .form-title {
   margin-bottom: 80px;
-  border-bottom: 2px solid #8ab5e5;
+  border-bottom: 2px solid #5e96d6;
   width: 1088px; }
 
 .contact-section .contact-div .contact-form .container .form-container .user-cred .user-lab #unamel {
@@ -391,7 +391,7 @@ body {
           display: none; }
           @media (max-width: 700px) {
             body .index-header .header-cont .header-nav .burger-icon {
-              color: #8ab5e5;
+              color: #5e96d6;
               display: block;
               font-size: 25px;
               cursor: pointer;
@@ -591,7 +591,7 @@ footer .footer-container .footer-cop {
         display: none; }
         @media (max-width: 700px) {
           .contact-header .header-cont .header-nav .burger-icon {
-            color: #8ab5e5;
+            color: #5e96d6;
             display: block;
             font-size: 25px;
             cursor: pointer;
@@ -650,7 +650,7 @@ footer .footer-container .footer-cop {
     margin-top: 80px; }
     .contact-section .contact-div .contact-form h2 {
       font-size: 30px;
-      color: #8ab5e5;
+      color: #5e96d6;
       max-width: 190px;
       width: 100%;
       margin: 0 auto 20px auto;
@@ -732,7 +732,7 @@ footer .footer-container .footer-cop {
         display: none; }
         @media (max-width: 700px) {
           .about-header .header-cont .header-nav .burger-icon {
-            color: #8ab5e5;
+            color: #5e96d6;
             display: block;
             font-size: 25px;
             cursor: pointer;
@@ -799,7 +799,7 @@ footer .footer-container .footer-cop {
       width: 100%; }
       .about-section .about-container .about-info .about-p {
         font-size: 20px;
-        color: #8ab5e5;
+        color: #5e96d6;
         letter-spacing: 0.1em;
         line-height: 1.5em; }
         .about-section .about-container .about-info .about-p:nth-child(1), .about-section .about-container .about-info .about-p:nth-child(2) {

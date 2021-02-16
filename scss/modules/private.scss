@@ -25,7 +25,7 @@
 
 // li parameters
 %ul-li-par {
-    color: $soft-blue;
+    color: $blue-col;
    
     font-weight: 400;
     font-size: 16px;
@@ -43,7 +43,7 @@
 
 // logo parameters
 %logo-par {
-    color: 	$soft-blue;
+    color: 	$blue-col;
     font-weight: bolder;
     font-size: $p-40;
 }
@@ -154,7 +154,7 @@
 
         // h2
         %sec-one-h2 {
-            color: $soft-blue;
+            color: $blue-col;
             font-size: 40px;
             width: 285px;
             margin: 0 auto;
@@ -221,7 +221,7 @@
              // contact title
              %contact-title-par {
                 margin-bottom: 80px;
-                border-bottom: 2px solid $soft-blue;
+                border-bottom: 2px solid $blue-col;
                 width: 1088px;
                
             }
