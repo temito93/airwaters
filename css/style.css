@@ -534,24 +534,12 @@ footer .footer-container .footer-cop {
   .sec-one .sec-one-div .product-list .hide-box-l {
     opacity: 0;
     left: -100%; }
-  .sec-one .sec-one-div .product-list .show-box-r {
-    opacity: 1;
-    right: 0; }
-  .sec-one .sec-one-div .product-list .hide-box-r {
-    opacity: 0;
-    right: -100%; }
   .sec-one .sec-one-div .product-list .show-box-l-bottom {
     opacity: 1;
     left: 0; }
   .sec-one .sec-one-div .product-list .hide-box-l-bottom {
     opacity: 0;
     left: -100%; }
-  .sec-one .sec-one-div .product-list .show-box-r-bottom {
-    opacity: 1;
-    right: 0; }
-  .sec-one .sec-one-div .product-list .hide-box-r-bottom {
-    opacity: 0;
-    right: -100%; }
   .sec-one .sec-one-div .product-list .list-one {
     position: relative;
     transition: all 0.9s; }
