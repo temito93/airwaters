@@ -17,6 +17,21 @@
 }
 
 
+
+//about content animation
+@keyframes water {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+  }
+  
+  
+@keyframes spacing {
+  0% {  letter-spacing: 0.8em; margin-left: 0.7em; }
+  100% { letter-spacing: 1em; margin-left: 1em;}
+}
+
+
+
 // w3 animations
   @keyframes animateleft{
     from{left:-700px;opacity:0} 
