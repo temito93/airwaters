@@ -1,5 +1,5 @@
 footer {
-    
+    margin-bottom: 0;
     @extend %footer-par;
     .footer-container {
         @extend  %f-container-par;
