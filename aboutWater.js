@@ -2,9 +2,9 @@ jQuery(document).ready(function() {
 	"use strick"
 
 		$('.water').ripples({
-		resolution: 512,
+		resolution: 312,
 		dropRadius: 15,
-		perturbance: 0.04,
+		perturbance: 0.03,
 		
 		});
 
