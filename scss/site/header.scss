@@ -132,10 +132,15 @@ body {
 
         }
         
+            
+        
         .header {
             padding-top: 125px;
             @extend %header;
+            
+            
             .inner-header {
+                
                 @media (max-width: 600px) {
                     font-size: 35px;
                 }
@@ -151,6 +156,7 @@ body {
                     @extend %waves;
                     .parallax {
                         use {
+                            
                         animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)  infinite;
                             &:nth-child(1) {
                                 animation-delay: -2s;
