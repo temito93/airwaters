@@ -283,7 +283,8 @@ body .index-header .header div .waves {
 
 footer {
   background: #5e96d6;
-  width: 100%; }
+  width: 100%;
+  height: 260px; }
 
 footer .footer-container {
   max-width: 1088px;
