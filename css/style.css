@@ -910,7 +910,7 @@ html {
           height: 200px; } }
       @media (max-width: 1230px) {
         html body .about-section .about-container .water .text {
-          top: 25%;
+          top: 30%;
           font-size: 20px; } }
       @media (max-width: 965px) {
         html body .about-section .about-container .water .text {
