@@ -4,7 +4,7 @@ jQuery(document).ready(function() {
 		$('.water').ripples({
 		resolution: 312,
 		dropRadius: 15,
-		perturbance: 0.03,
+		perturbance: 0.05,
 		
 		});
 
