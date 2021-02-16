@@ -642,7 +642,8 @@ footer .footer-container .footer-cop {
 
 .contact-section {
   margin-top: 200px;
-  margin-bottom: 200px; }
+  margin-bottom: 200px;
+  height: 100vh; }
   .contact-section .contact-div {
     margin-top: 80px; }
     .contact-section .contact-div .contact-form .form-title h2 {
