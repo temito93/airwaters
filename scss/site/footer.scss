@@ -2,9 +2,20 @@ footer {
     
     @extend %footer-par;
     .footer-container {
-        
+        @media (max-width: 900px) {
+            display: flex;
+            flex-direction: column;
+        }
         @extend  %f-container-par;
         .footer-wrapper {
+            @media (max-width: 1115px) {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            @media (max-width: 900px) {
+                flex-direction: column;
+                align-items: flex-start;
+            }
             padding-top: 50px;
             display: flex;
             align-items: center;
@@ -18,6 +29,10 @@ footer {
         }
 
         .footer-info {
+            @media (max-width: 900px) {
+                margin-top: 50px;
+                
+            }
             .footer-phone {
                 display: flex;
                 align-items: center;
@@ -53,7 +68,12 @@ footer {
             }
         }
         .footer-cop {
+            @media (max-width: 1115px) {
+                padding-left: 20px;
+                
+            }
             margin-top: 80px;
+            padding-bottom: 20px;
             color: #fff;
             font-style: italic;
             font-size: 18px;
