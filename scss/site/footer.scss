@@ -1,7 +1,8 @@
 footer {
-    margin-bottom: 0;
+   
     @extend %footer-par;
     .footer-container {
+        margin-bottom: 0;
         @extend  %f-container-par;
         .footer-wrapper {
             padding-top: 50px;
