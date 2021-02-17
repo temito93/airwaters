@@ -2,7 +2,7 @@ listFIVE = document.getElementById("listFIVE");
 
 var myScrollFuncfive = function() {
   var y = window.scrollY;
-  if (y >= 750) {
+  if (y >= 700) {
     listFIVE.className = "list-five show-list-five"
   } else {
     listFIVE.className = "list-five hide-list-five"
