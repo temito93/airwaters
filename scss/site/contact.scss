@@ -135,7 +135,10 @@
 
 .contact-section {
     @media (max-width: 1130px) {
-        margin-bottom: 500px;
+        margin-bottom: 600px;
+    }
+    @media (max-width: 570px) {
+        margin-bottom: 700px;
     }
     margin-top: 200px;
     margin-bottom: 200px;
@@ -336,6 +339,7 @@
                     @media (max-width: 570px) {
                         max-width: 350px;
                         width: 100%;
+                        
                     }
                     @media (max-width: 400px) {
                         max-width: 280px;
