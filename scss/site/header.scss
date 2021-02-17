@@ -10,6 +10,7 @@ body {
             top: 0;
             left: 0;
             width: 100%;
+            height: 120px;
             z-index: 9;
             opacity: 0.97;
             .header-nav {
@@ -45,15 +46,18 @@ body {
                         @extend %animation-left;
                     }
                     .logo {
+                        
                         @media (max-width: 1125px) {
                             padding-left: 20px;
                         }
-                        
-                        height: $p-45;
-                        
                         .logo-a {
-                            @extend %logo-par;
+                            img {
+                                width: 150px;
+                                
+                            }
                         }
+                        
+                        
                     }
 
                     .navigation {

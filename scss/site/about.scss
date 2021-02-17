@@ -9,7 +9,7 @@ html {
                 background: #fff;
                 position: fixed;
                 top: 0;
-                
+                height: 120px;
                 width: 100%;
                 z-index: 9;
                 opacity: 0.97;
@@ -50,11 +50,14 @@ html {
                                 padding-left: 20px;
                             }
                             
-                            height: $p-45;
-                            
                             .logo-a {
-                                @extend %logo-par;
+                                img {
+                                    width: 150px;
+                                    
+                                }
                             }
+                            
+                            
                         }
 
                         .navigation {
