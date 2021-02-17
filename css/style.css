@@ -813,6 +813,7 @@ footer .footer-container .footer-cop {
             max-width: 280px;
             width: 100%; } }
         .contact-section .contact-div .contact-form .container .container-map-info .cont-map iframe {
+          filter: invert(90%);
           max-width: 500px;
           width: 100%;
           height: 300px;
