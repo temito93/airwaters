@@ -38,6 +38,12 @@ footer {
                 align-items: center;
                 margin-bottom: 15px;
                 a{
+                    @media (max-width: 450px) {
+                        font-size: 15px;
+                    }
+                    @media (max-width: 335px) {
+                        font-size: 13px;
+                    }
                     color: #fff;
                     font-size: 17px;
                     margin-left: 10px;
@@ -49,6 +55,12 @@ footer {
                 align-items: center;
                 margin-bottom: 15px;
                 a{
+                    @media (max-width: 450px) {
+                        font-size: 15px;
+                    }
+                    @media (max-width: 335px) {
+                        font-size: 13px;
+                    }
                     color: #fff;
                     font-size: 17px;
                     margin-left: 10px;
@@ -60,6 +72,13 @@ footer {
                 display: flex;
                 align-items: center;
                 a{
+                    @media (max-width: 450px) {
+                        font-size: 15px;
+                    }
+
+                    @media (max-width: 335px) {
+                        font-size: 13px;
+                    }
                     color: #fff;
                     font-size: 17px;
                     margin-left: 10px;
@@ -71,6 +90,9 @@ footer {
             @media (max-width: 1115px) {
                 padding-left: 20px;
                 
+            }
+            @media (max-width: 450px) {
+                font-size: 12px;
             }
             margin-top: 80px;
             padding-bottom: 20px;

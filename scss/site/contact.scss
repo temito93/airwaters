@@ -152,26 +152,45 @@
 
 
 .contact-section {
+    @media (max-width: 1130px) {
+        margin-bottom: 500px;
+    }
     margin-top: 200px;
     
     height: 100vh;
     .contact-div {
+        
         margin-top: 80px;
         @extend %contact-div-par;
         .contact-form {
-            
+            @media (max-width: 1090px) {
+                max-width: 1090px;
+                width: 100%;
+            }
             .w3-animate-bottom {
                 @extend %animation-bottom;
             }
             .form-title {
+                @media (max-width: 1090px) {
+                    max-width: 1090px;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    
+                }
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 h2 {
+                   
                     font-size:30px;
                     color: #fff;
                     max-width: 190px;
                     width: 100%;
-                    margin: 0 auto 20px auto;
+                    margin: 0 auto;
                     letter-spacing: 0.1em;
-                    padding-top: 3%;
+                    
                     
                 }
                 @extend %contact-title-par;
@@ -180,12 +199,21 @@
                 @extend %animation-left;
             }
             .container {
+                @media (max-width: 1130px) {
+                    flex-direction: column;
+                    align-items: center;
+                    
+                }
+                
                 display: flex;
                 justify-content: space-between;
                 .form-container{
-                    max-width: 520px;
-                    width: 100%;
+                    
+                    
                     .user-cred {
+                        @media (max-width: 570px) {
+                            flex-direction: column;
+                        }
                         display: flex;
                         .user-lab {
                             .user-div {
@@ -200,6 +228,7 @@
                             }
                             
                             #unamel {
+                               
                                 @extend %user-input-par;
                             }
 
@@ -210,6 +239,9 @@
                             
                         }
                         .surname-lab {
+                            @media (max-width: 570px) {
+                                margin-top: 15px;
+                            }
                             .surname-div {
                                 label {
                                     color: $blue-col;
@@ -220,6 +252,7 @@
                                 }
                             }
                             #sname {
+                               
                                 @extend %surname-input-par;
                             }
 
@@ -241,6 +274,10 @@
                             
                         }
                         #etext {
+                            @media (max-width: 570px) {
+                                max-width: 250px;
+                                width: 100%;
+                            }
                             @extend %email-input-par;
                         }
 
@@ -260,6 +297,10 @@
                             }
                         }
                         #stext {
+                            @media (max-width: 570px) {
+                                max-width: 250px;
+                                width: 100%;
+                            }
                             @extend %subj-input-par;
                         }
 
@@ -280,6 +321,10 @@
                         }
         
                         #atext {
+                            @media (max-width: 570px) {
+                                max-width: 350px;
+                                width: 100%;
+                            }
                         @extend %text-area-par;
                         }
 
@@ -302,6 +347,18 @@
                     }
                 }
                 .container-map-info {
+                    @media (max-width: 1130px) {
+                        margin-top: 50px;
+                        margin-bottom: 50px;
+                    }
+                    @media (max-width: 570px) {
+                        max-width: 350px;
+                        width: 100%;
+                    }
+                    @media (max-width: 400px) {
+                        max-width: 280px;
+                        width: 100%;
+                    }
                     max-width: 500px;
                     width: 100%;
                     .cont-map {
@@ -319,6 +376,9 @@
                         .info-par {
                             @extend %info-div-par;
                             .info-a {
+                                @media (max-width: 415px) {
+                                    font-size: 13px;
+                                }
                                 @extend %info-a-par;
                             }
                             &:nth-child(1) .info-a {
