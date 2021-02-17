@@ -9,7 +9,6 @@ html {
                 background: #fff;
                 position: fixed;
                 top: 0;
-                height: 120px;
                 width: 100%;
                 z-index: 9;
                 opacity: 0.97;
@@ -25,7 +24,7 @@ html {
                                 cursor:pointer;
                                 position: absolute;
                                 right: 20px;
-                                top: 30px;
+                                top: 50px;
                                 
                             
                         }
@@ -46,9 +45,7 @@ html {
                             @extend %animation-left;
                         }
                         .logo {
-                            @media (max-width: 1125px) {
-                                padding-left: 20px;
-                            }
+                            
                             
                             .logo-a {
                                 img {
@@ -70,6 +67,7 @@ html {
                                 transform: translate(-50%);
                                 text-align: center;
                                 padding-right: 0;
+                                padding-bottom: 20px;
                                 
                             }
                             .w3-animate-right {
