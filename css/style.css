@@ -708,6 +708,7 @@ footer .footer-container .footer-cop {
 
 .contact-section {
   margin-top: 200px;
+  margin-bottom: 200px;
   height: 100vh; }
   @media (max-width: 1130px) {
     .contact-section {
