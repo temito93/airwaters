@@ -2,7 +2,7 @@ listONE = document.getElementById("listONE");
 
 var myScrollFuncthree = function() {
   var y = window.scrollY;
-  if (y >= 550) {
+  if (y >= 500) {
     listONE.className = "list-one show-box-l"
   } else {
     listONE.className = "list-one hide-box-l"

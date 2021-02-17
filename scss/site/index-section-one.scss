@@ -60,6 +60,7 @@
         }
 
         .product-list {
+                
                 @extend %product-list-par;
                 // list-one animation parameters
                 // scroll-list-t.js file
@@ -82,13 +83,13 @@
                 // scroll-list-r.js file
                 .show-box-r {
                     opacity: 1;
-                    right: 0;
+                    bottom: 0;
 
                 }
 
                 .hide-box-r {
                     opacity: 0;
-                    right: -200px;
+                    bottom: -200px;
                 }
                 // end of list-two animation parameters
 
@@ -99,12 +100,12 @@
                 // scroll-list-bottom-l.js file
                 .show-box-l-bottom {
                     opacity: 1;
-                    left: 0;
+                    right: 0;
                 }
 
                 .hide-box-l-bottom {
                     opacity: 0;
-                    left: -200px;
+                    right: -200px;
                 }
                 // end of list-three animation parameters
 
@@ -115,16 +116,41 @@
                 // scroll-list-bottom-r.js file
                 .show-box-r-bottom {
                     opacity: 1;
-                    right: 0;
+                    left: 0;
                 }
 
                 .hide-box-r-bottom {
                     opacity: 0;
-                    right: -200px;
+                    left: -200px;
                 }
                 // end of list-four animation parameters
 
 
+
+                // list five animation parameters
+                // hide-list-five.js file
+                .show-list-five {
+                    opacity: 1;
+                    bottom: 0;
+                }
+
+                .hide-list-five {
+                    opacity: 0;
+                    bottom: -200px;
+                }
+
+                //list six animation parameters
+                //hide-list-six.js file
+                .show-list-six {
+                    opacity: 1;
+                    right: 0;
+                }
+
+                .hide-list-six {
+                    opacity: 0;
+                    right: -200px;
+                }
+                
                 .list-one {
                     position: relative;
                     transition: all 0.9s;
@@ -133,7 +159,6 @@
                     .box-one {
                         
                         .box-one-cont {
-                            
                             display: flex;
                             .product-p {
                                 @extend %product-p-par;
@@ -195,9 +220,49 @@
                     position: relative;
                     transition: all 0.9s;
                     @extend %list-par;
-
+                    margin-top: 50px;
                     .box-four {
                         .box-four-cont {
+                            display: flex;
+                            .product-p {
+                                @extend %product-p-par;
+                            }
+                        }
+                        .r-more {
+                            @extend %read-more-par;
+                            .read-a {
+                                @extend %read-a-par;
+                            }
+                        }
+                    }
+                }
+                .list-five {
+                    position: relative;
+                    transition: all 0.9s;
+                    @extend %list-par;
+                    margin-top: 50px;
+                    .box-five {
+                        .box-five-cont {
+                            display: flex;
+                            .product-p {
+                                @extend %product-p-par;
+                            }
+                        }
+                        .r-more {
+                            @extend %read-more-par;
+                            .read-a {
+                                @extend %read-a-par;
+                            }
+                        }
+                    }
+                }
+                .list-six {
+                    position: relative;
+                    transition: all 0.9s;
+                    @extend %list-par;
+                    margin-top: 50px;
+                    .box-six {
+                        .box-six-cont {
                             display: flex;
                             .product-p {
                                 @extend %product-p-par;
