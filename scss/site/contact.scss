@@ -94,7 +94,7 @@
                                         display: flex;
                                         flex-direction: column;
                                         position: absolute;
-                                        top: 30px;
+                                        top: 25px;
                                         z-index: 10;
                                         @media (max-width: 700px) {
                                             margin-top: 120px;
@@ -138,7 +138,7 @@
 
                                 // clickable tree menu on product
                                 &:nth-child(3) {
-                                        
+                                    height: 28px; 
                                     .nested {
                                         display: none;
                                         background-color: #fff;
@@ -207,7 +207,13 @@
                                     }
                                 }
 
-                                
+                                .nested-li-a {
+                                       
+                                    @media (max-width: 700px) {
+                                        padding-bottom: 5px;
+                                    }
+                                    @extend %ul-li-par;
+                                }
                                 
                                 .ul-a {
                                     // navigation hover effect

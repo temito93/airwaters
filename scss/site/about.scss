@@ -45,7 +45,13 @@ html {
                             @extend %animation-left;
                         }
                         .logo {
-                            
+                            .nested-li-a {
+                                       
+                                @media (max-width: 700px) {
+                                    padding-bottom: 5px;
+                                }
+                                @extend %ul-li-par;
+                            }
                             
                             .logo-a {
                                 img {
@@ -99,7 +105,7 @@ html {
                                             display: flex;
                                             flex-direction: column;
                                             position: absolute;
-                                            top: 30px;
+                                            top: 25px;
                                             z-index: 10;
                                             @media (max-width: 700px) {
                                                 margin-top: 120px;
@@ -143,7 +149,7 @@ html {
 
                                     // clickable tree menu on product
                                     &:nth-child(3) {
-                                            
+                                        height: 28px;
                                         .nested {
                                             display: none;
                                             background-color: #fff;
@@ -213,7 +219,13 @@ html {
                                         }
 
                                         
-                                      
+                                        .nested-li-a {
+                                       
+                                            @media (max-width: 700px) {
+                                                padding-bottom: 5px;
+                                            }
+                                            @extend %ul-li-par;
+                                        }
                                         
 
                                         .ul-a {
