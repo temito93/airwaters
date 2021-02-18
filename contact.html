@@ -29,7 +29,16 @@
                             <ul id="menu" class="nav-ul">
                                 <li class="ul-li"> <a class="ul-a" href="index.html"> Home </a> </li>
                                 <li class="ul-li"> <a class="ul-a" href="about.html"> About us </a> </li>
-                                <li class="ul-li"> <a class="ul-a" href="#"> Products </a> </li>
+                                <li class="ul-li"> <a class="ul-a tree" href="#"> Products <i class="fas fa-angle-down"></i> </a> 
+                                    <ul class="nested">
+                                        <li class="nested-li"> <a class="nested-a" href="#"> Tanks </a> </li>
+                                        <li class="nested-li"> <a class="nested-a" href="#"> Chemicals </a> </li>
+                                        <li class="nested-li"> <a class="nested-a" href="#"> Filters </a> </li>
+                                        <li class="nested-li"> <a class="nested-a" href="#"> Pumps </a> </li>
+                                        <li class="nested-li"> <a class="nested-a" href="#"> Grease Traps </a> </li>
+                                        <li class="nested-li"> <a class="nested-a" href="#"> Services </a> </li>
+                                    </ul>
+                                </li>
                                 <li class="ul-li"> <a class="ul-a" href="contact.html"> Contact </a> </li>
                             </ul>
     
@@ -127,8 +136,8 @@
 <footer>
     <div class="footer-container">
         <div class="footer-wrapper">
-            <div class="footer-logo">
-                <a class="footer-logo-a" href="index.html"> Logo </a>
+            <div class="footer-cop">
+                Copyright 2020 "AirWater Systems" LLC 405421280
             </div>
             <div class="footer-info">
                 <div class="footer-phone">
@@ -147,15 +156,17 @@
                 </div>
             </div>
         </div>
-        <div class="footer-cop">
-            Copyright 2020 "AirWater Systems" LLC 405421280
-        </div>
+        
 
 
     </div>
 
 </footer>
+<!-- Tree menu for Products-->
+<script src="./js/treeMenu.js"></script>
 
-<script src="toogle.js"></script>
+
+<!--Toogle menu for responsive-->
+<script src="./js/toogle.js"></script>
 </body>
 </html>
