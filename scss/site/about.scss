@@ -86,6 +86,7 @@ html {
                                     
                                     .ul-li {
                                         
+                                        
                                         &:nth-child(3) {
                                             
                                             .nested {
@@ -129,8 +130,10 @@ html {
                                                         
                                                 
                                                     }
-                                                    .nested-a:hover {
-                                                        padding-left: 20px;
+                                                    .nested-a{
+                                                        &:hover {
+                                                            padding-left: 20px;
+                                                        }
                                                     }
                                                 }
                                                 
@@ -153,20 +156,25 @@ html {
                                         }
 
                                         
-                                        .ul-a::after {
-                                            content: '';
-                                            display: block;
-                                            width: 0;
-                                            height: 2px;
-                                            background: $blue-col;
-                                            transition: width .3s;
-                                            margin-top: 10px;
-                                        }
-                                        .ul-a:hover::after {
-                                            width: 100%;
+                                      
                                         
-                                        }
+
                                         .ul-a {
+                                            // navigation hover effect
+                                            &::after {
+                                                content: '';
+                                                display: block;
+                                                width: 0;
+                                                height: 2px;
+                                                background: $blue-col;
+                                                transition: width .3s;
+                                                margin-top: 10px;
+                                            }
+                                            &:hover::after {
+                                                width: 100%;
+                                            }
+
+                                            // end of navigation hover effect
                                             transition: all 0.4s;
                                             transition-timing-function: linear;
                                             @media (max-width: 700px) {

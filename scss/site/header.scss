@@ -130,9 +130,10 @@ body {
                                                     
                                             
                                                 }
-                                                .nested-a:hover {
-                                                    
-                                                    padding-left: 20px;
+                                                .nested-a{
+                                                    &:hover {
+                                                        padding-left: 20px;
+                                                    }
                                                 }
                                             }
                                             
@@ -156,7 +157,10 @@ body {
                                         }
                                     }
 
-                                    .ul-a::after {
+                                    
+                                    .ul-a {
+                                        // navigation hover effect
+                                        &::after {
                                             content: '';
                                             display: block;
                                             width: 0;
@@ -164,12 +168,13 @@ body {
                                             background: $blue-col;
                                             transition: width .3s;
                                             margin-top: 10px;
-                                    }
-                                    .ul-a:hover::after {
-                                        width: 100%;
-                                       
-                                    }
-                                    .ul-a {
+                                        }
+                                        &:hover::after {
+                                            width: 100%;
+                                        }
+                                    
+    
+                                        // end of navigation hover effect
                                         transition: all 0.4s;
                                         transition-timing-function: linear;
                                         @media (max-width: 700px) {
@@ -178,9 +183,6 @@ body {
                                         @extend %ul-li-par;
                                         
                                     }
-                                    // .lang-a {
-                                    //     @extend %lang-par;
-                                    // }
                                 }
                             }
                             .nav-ul.open-menu {
