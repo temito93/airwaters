@@ -310,14 +310,6 @@ body .index-header .header-cont .header-nav .header-wrapper-media .navigation .w
     transform: scale(4);
     opacity: 0; } }
 
-@keyframes hover {
-  0% {
-    border-bottom: 2px solid #5e96d6;
-    width: 0; }
-  100% {
-    border-bottom: 2px solid #5e96d6;
-    width: 49px; } }
-
 @keyframes water {
   from {
     transform: rotate(0deg); }
@@ -735,14 +727,22 @@ footer .footer-container .footer-info .footer-loc {
             .contact-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li:nth-child(2), .contact-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li:nth-child(3), .contact-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li:nth-child(4) {
               margin-top: 20px;
               margin-left: 0; } }
-          @media (max-width: 700px) {
-            .contact-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li .ul-a {
-              padding-bottom: 5px; } }
-          .contact-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li .ul-a:hover {
-            transition-property: all;
-            transition-duration: 0.1s;
-            transition-timing-function: ease-in-out;
-            border-bottom: 2px solid #8ab5e5; }
+          .contact-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li .ul-a::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: #5e96d6;
+            transition: width .3s;
+            margin-top: 10px; }
+          .contact-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li .ul-a:hover::after {
+            width: 100%; }
+          .contact-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li .ul-a {
+            transition: all 0.4s;
+            transition-timing-function: linear; }
+            @media (max-width: 700px) {
+              .contact-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li .ul-a {
+                padding-bottom: 5px; } }
         @media (max-width: 700px) {
           .contact-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul.open-menu {
             display: block;
@@ -959,14 +959,22 @@ html {
             html body .about-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li:nth-child(2), html body .about-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li:nth-child(3), html body .about-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li:nth-child(4) {
               margin-top: 20px;
               margin-left: 0; } }
-          @media (max-width: 700px) {
-            html body .about-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li .ul-a {
-              padding-bottom: 5px; } }
-          html body .about-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li .ul-a:hover {
-            transition-property: all;
-            transition-duration: 0.1s;
-            transition-timing-function: ease-in-out;
-            border-bottom: 2px solid #8ab5e5; }
+          html body .about-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li .ul-a::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: #5e96d6;
+            transition: width .3s;
+            margin-top: 10px; }
+          html body .about-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li .ul-a:hover::after {
+            width: 100%; }
+          html body .about-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li .ul-a {
+            transition: all 0.4s;
+            transition-timing-function: linear; }
+            @media (max-width: 700px) {
+              html body .about-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li .ul-a {
+                padding-bottom: 5px; } }
         @media (max-width: 700px) {
           html body .about-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul.open-menu {
             display: block;
