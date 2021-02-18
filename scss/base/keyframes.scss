@@ -16,7 +16,11 @@
   }
 }
 
-
+// hover animation
+@keyframes hover{
+  0% {border-bottom: 2px solid $blue-col; width: 0;}
+  100%  {border-bottom: 2px solid $blue-col; width: 49px;}
+}
 
 //about content animation
 @keyframes water {

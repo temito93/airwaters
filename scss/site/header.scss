@@ -98,6 +98,7 @@ body {
                                         }
                                         
                                         .active {
+                                            
                                             opacity: 0.9;
                                             display: flex;
                                             flex-direction: column;
@@ -105,7 +106,7 @@ body {
                                             top: 35px;
                                             z-index: 10;
                                             @media (max-width: 700px) {
-                                                margin-top: 100px;
+                                                margin-top: 120px;
                                                 width: 165px;
                                                 text-align: start;
                                             }
@@ -123,12 +124,14 @@ body {
                                                     padding-top: 20px;
                                                 }
                                                 .nested-a {
+                                                    transition: all 0.4s;
                                                     padding-left: 10px;
                                                     @extend %ul-li-par;
                                                     
                                             
                                                 }
                                                 .nested-a:hover {
+                                                    
                                                     padding-left: 20px;
                                                 }
                                             }
@@ -153,18 +156,27 @@ body {
                                         }
                                     }
 
-                                    
+                                    .ul-a::after {
+                                            content: '';
+                                            display: block;
+                                            width: 0;
+                                            height: 2px;
+                                            background: $blue-col;
+                                            transition: width .3s;
+                                            margin-top: 10px;
+                                    }
+                                    .ul-a:hover::after {
+                                        width: 100%;
+                                       
+                                    }
                                     .ul-a {
+                                        transition: all 0.4s;
+                                        transition-timing-function: linear;
                                         @media (max-width: 700px) {
                                             padding-bottom: 5px;
                                         }
                                         @extend %ul-li-par;
-                                        &:hover {
-                                            transition-property: all;
-                                            transition-duration: 0.1s;
-                                            transition-timing-function: ease-in-out;
-                                            border-bottom: 2px solid $soft-blue;
-                                        }
+                                        
                                     }
                                     // .lang-a {
                                     //     @extend %lang-par;
