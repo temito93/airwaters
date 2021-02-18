@@ -86,7 +86,7 @@ body {
                                 align-items: center;
                                 
                                 .ul-li {
-
+                                    
                                     // hover tree menu on products
                                     &:nth-child(3):hover {
                                         display: block;
@@ -145,7 +145,7 @@ body {
 
                                     // clickable tree menu on product
                                     &:nth-child(3) {
-                                            
+                                        height: 28px;  
                                         .nested {
                                             display: none;
                                             background-color: #fff;
@@ -215,8 +215,14 @@ body {
                                         
                                         }
                                     }
-
                                     
+                                    .nested-li-a {
+                                        vertical-align: top;
+                                        @media (max-width: 700px) {
+                                            padding-bottom: 5px;
+                                        }
+                                        @extend %ul-li-par;
+                                    }
                                     .ul-a {
                                         // navigation hover effect
                                         &::after {
@@ -232,7 +238,7 @@ body {
                                             width: 100%;
                                         }
                                     
-    
+                                        
                                         // end of navigation hover effect
                                         transition: all 0.4s;
                                         transition-timing-function: linear;
