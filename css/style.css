@@ -445,7 +445,8 @@ body {
                 body .index-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li:nth-child(3):hover .nested .nested-li .nested-a:hover {
                   padding-left: 20px; }
             body .index-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li:nth-child(3) {
-              height: 28px; }
+              height: 30px;
+              vertical-align: top; }
               body .index-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li:nth-child(3) .nested {
                 display: none;
                 background-color: #fff;
@@ -800,7 +801,7 @@ footer .footer-container .footer-info .footer-loc {
               .contact-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li:nth-child(3):hover .nested .nested-li .nested-a:hover {
                 padding-left: 20px; }
           .contact-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li:nth-child(3) {
-            height: 28px; }
+            height: 30px; }
             .contact-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li:nth-child(3) .nested {
               display: none;
               background-color: #fff;
@@ -1067,7 +1068,7 @@ html {
               html body .about-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li:nth-child(3):hover .nested .nested-li .nested-a:hover {
                 padding-left: 20px; }
           html body .about-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li:nth-child(3) {
-            height: 28px; }
+            height: 30px; }
             html body .about-header .header-cont .header-nav .header-wrapper-media .navigation nav .nav-ul .ul-li:nth-child(3) .nested {
               display: none;
               background-color: #fff;
