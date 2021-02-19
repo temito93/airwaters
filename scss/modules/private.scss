@@ -400,3 +400,14 @@
     }
 
    
+    // Products circle parameter
+    %circle {
+        content: "\2022";
+        color: $blue-col;
+        font-weight: bold;
+        font-size: 40px;
+        display: inline-block; 
+        width: 1em;
+        vertical-align: middle;
+        margin-left: -1em;
+    }

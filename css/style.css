@@ -299,6 +299,16 @@ body .index-header .header-cont .header-nav .header-wrapper-media .navigation .w
   position: relative;
   animation: animateright 1s; }
 
+.tanks-section .tanks-container .tanks-info ul li::before, .chemicals-section .chemicals-container .chemicals-info ul li::before, .filters-section .filters-container .filters-info ul li::before, .pumps-section .pumps-container .pumps-info ul li::before, .grease-section .grease-container .grease-info ul li::before, .service-section .service-container .service-info ul li::before {
+  content: "\2022";
+  color: #5e96d6;
+  font-weight: bold;
+  font-size: 40px;
+  display: inline-block;
+  width: 1em;
+  vertical-align: middle;
+  margin-left: -1em; }
+
 @keyframes move-forever {
   0% {
     transform: translate3d(-90px, 0, 0); }
@@ -1235,3 +1245,105 @@ html {
         html body .about-section .about-container .water .text {
           font-size: 15px;
           top: 30%; } }
+
+.tanks-section {
+  height: 100vh;
+  margin-top: 200px; }
+  .tanks-section .tanks-container {
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex; }
+    .tanks-section .tanks-container .tanks-img img {
+      max-width: 500px;
+      width: 100%; }
+    .tanks-section .tanks-container .tanks-info {
+      margin-left: 100px; }
+      .tanks-section .tanks-container .tanks-info ul li {
+        color: #5e96d6;
+        font-size: 20px; }
+
+.chemicals-section {
+  height: 100vh;
+  margin-top: 200px; }
+  .chemicals-section .chemicals-container {
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex; }
+    .chemicals-section .chemicals-container .chemicals-img img {
+      max-width: 500px;
+      width: 100%; }
+    .chemicals-section .chemicals-container .chemicals-info {
+      margin-left: 100px; }
+      .chemicals-section .chemicals-container .chemicals-info ul li {
+        color: #5e96d6;
+        font-size: 20px; }
+
+.filters-section {
+  height: 100vh;
+  margin-top: 200px; }
+  .filters-section .filters-container {
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex; }
+    .filters-section .filters-container .filters-img img {
+      max-width: 500px;
+      width: 100%; }
+    .filters-section .filters-container .filters-info {
+      margin-left: 100px; }
+      .filters-section .filters-container .filters-info ul li {
+        color: #5e96d6;
+        font-size: 20px; }
+
+.pumps-section {
+  height: 100vh;
+  margin-top: 200px; }
+  .pumps-section .pumps-container {
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex; }
+    .pumps-section .pumps-container .pumps-img img {
+      max-width: 500px;
+      width: 100%; }
+    .pumps-section .pumps-container .pumps-info {
+      margin-left: 100px; }
+      .pumps-section .pumps-container .pumps-info ul li {
+        color: #5e96d6;
+        font-size: 20px; }
+
+.grease-section {
+  height: 100vh;
+  margin-top: 200px; }
+  .grease-section .grease-container {
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex; }
+    .grease-section .grease-container .grease-img img {
+      max-width: 500px;
+      width: 100%; }
+    .grease-section .grease-container .grease-info {
+      margin-left: 100px; }
+      .grease-section .grease-container .grease-info ul li {
+        color: #5e96d6;
+        font-size: 20px; }
+
+.service-section {
+  height: 100vh;
+  margin-top: 200px; }
+  .service-section .service-container {
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex; }
+    .service-section .service-container .service-img img {
+      max-width: 500px;
+      width: 100%; }
+    .service-section .service-container .service-info {
+      margin-left: 100px; }
+      .service-section .service-container .service-info ul li {
+        color: #5e96d6;
+        font-size: 20px; }

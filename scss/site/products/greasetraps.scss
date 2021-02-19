@@ -1,0 +1,33 @@
+.grease-section{
+    height: 100vh;
+    margin-top: 200px;
+    .grease-container {
+        max-width: 1088px;
+        width: 100%;
+        margin: $m-center;
+        display: flex;
+        .grease-img {
+            img {
+                max-width: 500px;
+                width: $w-100;
+                
+            }
+        }
+
+        .grease-info {
+            margin-left: 100px;
+            ul {
+                
+                
+                li {
+                    color: $blue-col;
+                    font-size: 20px;
+                    &::before {
+                        @extend %circle;
+                    }
+                    
+                }
+            }
+        }
+    }
+}

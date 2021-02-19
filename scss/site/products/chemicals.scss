@@ -1,0 +1,33 @@
+.chemicals-section{
+    height: 100vh;
+    margin-top: 200px;
+    .chemicals-container {
+        max-width: 1088px;
+        width: 100%;
+        margin: $m-center;
+        display: flex;
+        .chemicals-img {
+            img {
+                max-width: 500px;
+                width: $w-100;
+                
+            }
+        }
+
+        .chemicals-info {
+            margin-left: 100px;
+            ul {
+                
+                
+                li {
+                    color: $blue-col;
+                    font-size: 20px;
+                    &::before {
+                        @extend %circle;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
