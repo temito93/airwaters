@@ -42,6 +42,11 @@
             margin-bottom: 20px;
             transition: all 0.8s;
             h2 {
+                @media (max-width: 400px) {
+                    font-size: 35px;
+                    max-width: 247px;
+                    width: 100%;
+                }
                 @extend %sec-one-h2;
             }
         }
@@ -67,6 +72,11 @@
                 }
                 @media (max-width: 700px) {
                     max-width: 350px;
+                    width: 100%;
+                    margin: $m-center;
+                }
+                @media (max-width: 400px) {
+                    max-width: 250px;
                     width: 100%;
                     margin: $m-center;
                 }
@@ -161,6 +171,11 @@
                 }
                 
                 .list-one {
+                    @media (max-width: 400px) {
+                        max-width: 250px;
+                        width: 100%;
+                        height: 305px;
+                    }
                     position: relative;
                     transition: all 0.9s;
                     @extend %list-par;
@@ -176,6 +191,11 @@
                         .list-img{
                             margin-top: 15px;
                             img {
+                                @media (max-width: 400px) {
+                                    max-width: 250px;
+                                    width: 100%;
+                                    height: 250px;
+                                }
                                 max-width: 350px;
                                 width: 100%;
                                 height: 335px;
@@ -193,6 +213,12 @@
                     @media (max-width: 700px) {
                         margin-top: 50px;
                     }
+                    @media (max-width: 400px) {
+                        max-width: 250px;
+                        width: 100%;
+                        height: 305px;
+                        
+                    }
                     position: relative;
                     transition: all 0.9s;
                     @extend %list-par;
@@ -201,6 +227,11 @@
                         .list-img{
                             margin-top: 15px;
                             img {
+                                @media (max-width: 400px) {
+                                    max-width: 250px;
+                                    width: 100%;
+                                    height: 250px;
+                                }
                                 max-width: 350px;
                                 width: 100%;
                                 height: 335px;
@@ -227,6 +258,11 @@
                     @media (max-width: 1147px) {
                         margin-top: 50px;
                     }
+                    @media (max-width: 400px) {
+                        max-width: 250px;
+                        width: 100%;
+                        height: 305px;
+                    }
                     position: relative;
                     transition: all 0.9s;
                     @extend %list-par;
@@ -235,6 +271,11 @@
                         .list-img{
                             margin-top: 15px;
                             img {
+                                @media (max-width: 400px) {
+                                    max-width: 250px;
+                                    width: 100%;
+                                    height: 250px;
+                                }
                                 max-width: 350px;
                                 width: 100%;
                                 height: 335px;
@@ -255,6 +296,11 @@
                     }
                 }
                 .list-four {
+                    @media (max-width: 400px) {
+                        max-width: 250px;
+                        width: 100%;
+                        height: 305px;
+                    }
                     position: relative;
                     transition: all 0.9s;
                     @extend %list-par;
@@ -263,6 +309,11 @@
                         .list-img{
                             margin-top: 15px;
                             img {
+                                @media (max-width: 400px) {
+                                    max-width: 250px;
+                                    width: 100%;
+                                    height: 250px;
+                                }
                                 max-width: 350px;
                                 width: 100%;
                                 height: 335px;
@@ -283,6 +334,11 @@
                     }
                 }
                 .list-five {
+                    @media (max-width: 400px) {
+                        max-width: 250px;
+                        width: 100%;
+                        height: 305px;
+                    }
                     position: relative;
                     transition: all 0.9s;
                     @extend %list-par;
@@ -291,6 +347,11 @@
                         .list-img{
                             margin-top: 15px;
                             img {
+                                @media (max-width: 400px) {
+                                    max-width: 250px;
+                                    width: 100%;
+                                    height: 250px;
+                                }
                                 max-width: 350px;
                                 width: 100%;
                                 height: 335px;
@@ -311,6 +372,11 @@
                     }
                 }
                 .list-six {
+                    @media (max-width: 400px) {
+                        max-width: 250px;
+                        width: 100%;
+                        height: 305px;
+                    }
                     position: relative;
                     transition: all 0.9s;
                     @extend %list-par;
@@ -319,6 +385,11 @@
                         .list-img{
                             margin-top: 15px;
                             img {
+                                @media (max-width: 400px) {
+                                    max-width: 250px;
+                                    width: 100%;
+                                    height: 250px;
+                                }
                                 max-width: 350px;
                                 width: 100%;
                                 height: 335px;
