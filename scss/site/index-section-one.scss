@@ -60,7 +60,16 @@
         }
 
         .product-list {
-                
+                @media (max-width: 1147px) {
+                    max-width: 720px;
+                    width: 100%;
+                    margin: $m-center;
+                }
+                @media (max-width: 700px) {
+                    max-width: 350px;
+                    width: 100%;
+                    margin: $m-center;
+                }
                 @extend %product-list-par;
                 // list-one animation parameters
                 // scroll-list-t.js file
@@ -181,6 +190,9 @@
                     }
                 }
                 .list-two {
+                    @media (max-width: 700px) {
+                        margin-top: 50px;
+                    }
                     position: relative;
                     transition: all 0.9s;
                     @extend %list-par;
@@ -212,6 +224,9 @@
             
               
                 .list-three {
+                    @media (max-width: 1147px) {
+                        margin-top: 50px;
+                    }
                     position: relative;
                     transition: all 0.9s;
                     @extend %list-par;
