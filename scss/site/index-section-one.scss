@@ -111,7 +111,8 @@
 
                 .hide-box-r {
                     @media (max-width: 1147px) {
-                        bottom: -100px;
+                        bottom: 0;
+                        right: -100px;
                     }
                     opacity: 0;
                     bottom: -200px;
@@ -130,7 +131,8 @@
 
                 .hide-box-l-bottom {
                     @media (max-width: 1147px) {
-                        right: -100px;
+                        right: 0;
+                        left: -100px;
                     }
                     opacity: 0;
                     right: -200px;
@@ -149,7 +151,8 @@
 
                 .hide-box-r-bottom {
                     @media (max-width: 1147px) {
-                        left: -100px;
+                        left: 0;
+                        right: -100px;
                     }
                     opacity: 0;
                     left: -200px;
@@ -167,7 +170,8 @@
 
                 .hide-list-five {
                     @media (max-width: 1147px) {
-                        bottom: -100px;
+                        bottom: 0;
+                        left: -100px;
                     }
                     opacity: 0;
                     bottom: -200px;
