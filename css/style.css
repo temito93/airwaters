@@ -646,7 +646,7 @@ footer .footer-container .footer-info .footer-loc {
   .sec-one .sec-one-div .product-list .hide-box-l {
     opacity: 0;
     left: -200px; }
-    @media (max-width: 700px) {
+    @media (max-width: 1147px) {
       .sec-one .sec-one-div .product-list .hide-box-l {
         left: -100px; } }
   .sec-one .sec-one-div .product-list .show-box-r {
@@ -655,7 +655,7 @@ footer .footer-container .footer-info .footer-loc {
   .sec-one .sec-one-div .product-list .hide-box-r {
     opacity: 0;
     bottom: -200px; }
-    @media (max-width: 700px) {
+    @media (max-width: 1147px) {
       .sec-one .sec-one-div .product-list .hide-box-r {
         bottom: -100px; } }
   .sec-one .sec-one-div .product-list .show-box-l-bottom {
@@ -664,7 +664,7 @@ footer .footer-container .footer-info .footer-loc {
   .sec-one .sec-one-div .product-list .hide-box-l-bottom {
     opacity: 0;
     right: -200px; }
-    @media (max-width: 700px) {
+    @media (max-width: 1147px) {
       .sec-one .sec-one-div .product-list .hide-box-l-bottom {
         right: -100px; } }
   .sec-one .sec-one-div .product-list .show-box-r-bottom {
@@ -673,7 +673,7 @@ footer .footer-container .footer-info .footer-loc {
   .sec-one .sec-one-div .product-list .hide-box-r-bottom {
     opacity: 0;
     left: -200px; }
-    @media (max-width: 700px) {
+    @media (max-width: 1147px) {
       .sec-one .sec-one-div .product-list .hide-box-r-bottom {
         left: -100px; } }
   .sec-one .sec-one-div .product-list .show-list-five {
@@ -682,7 +682,7 @@ footer .footer-container .footer-info .footer-loc {
   .sec-one .sec-one-div .product-list .hide-list-five {
     opacity: 0;
     bottom: -200px; }
-    @media (max-width: 700px) {
+    @media (max-width: 1147px) {
       .sec-one .sec-one-div .product-list .hide-list-five {
         bottom: -100px; } }
   .sec-one .sec-one-div .product-list .show-list-six {
@@ -691,7 +691,7 @@ footer .footer-container .footer-info .footer-loc {
   .sec-one .sec-one-div .product-list .hide-list-six {
     opacity: 0;
     right: -200px; }
-    @media (max-width: 700px) {
+    @media (max-width: 1147px) {
       .sec-one .sec-one-div .product-list .hide-list-six {
         right: -100px; } }
   .sec-one .sec-one-div .product-list .list-one {
