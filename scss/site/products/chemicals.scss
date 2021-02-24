@@ -1,13 +1,47 @@
 .chemicals-section{
     height: 100vh;
     margin-top: 200px;
+    @media (max-width: 830px) {
+        margin-top: 300px;
+    }
     .chemicals-container {
+        @media (max-width: 1100px) {
+            padding-left: 20px;
+        }
+        @media (max-width: 830px) {
+            
+            flex-direction: column;
+            max-width: 500px;
+            width: 100%;
+            margin: $m-center;
+        }
+        @media (max-width: 520px) {
+            max-width: 350px;
+            width: 100%;
+            margin: $m-center;
+        }
+        @media (max-width: 350px) {
+            max-width: 300px;
+            width: 100%;
+            margin: $m-center;
+        }
         max-width: 1088px;
         width: 100%;
         margin: $m-center;
         display: flex;
         .chemicals-img {
             img {
+                @media (max-width: 520px) {
+                    max-width: 350px;
+                    width: 100%;
+                }
+
+                @media (max-width: 350px) {
+                    max-width: 300px;
+                    width: 100%;
+                }
+                max-width: 500px;
+                width: $w-100;
                 max-width: 500px;
                 width: $w-100;
                 
@@ -15,6 +49,10 @@
         }
 
         .chemicals-info {
+            @media (max-width: 830px) {
+                margin-left: 40px;
+                margin-top: 40px;
+            }
             margin-left: 100px;
             ul {
                 
