@@ -190,15 +190,22 @@
                         }
                         .list-img{
                             margin-top: 15px;
-                            img {
-                                @media (max-width: 400px) {
-                                    max-width: 250px;
-                                    width: 100%;
-                                    height: 250px;
+                            a {
+                                img {
+                                    &:hover {
+                                        opacity: 0.8;
+                                    }
                                 }
-                                max-width: 350px;
-                                width: 100%;
-                                height: 335px;
+                                img {
+                                    @media (max-width: 400px) {
+                                        max-width: 250px;
+                                        width: 100%;
+                                        height: 250px;
+                                    }
+                                    max-width: 350px;
+                                    width: 100%;
+                                    height: 335px;
+                                }
                             }
                         }
                         .r-more {
@@ -226,15 +233,22 @@
                     .box-two {
                         .list-img{
                             margin-top: 15px;
-                            img {
-                                @media (max-width: 400px) {
-                                    max-width: 250px;
-                                    width: 100%;
-                                    height: 250px;
+                            a {
+                                img {
+                                    &:hover {
+                                        opacity: 0.8;
+                                    }
                                 }
-                                max-width: 350px;
-                                width: 100%;
-                                height: 335px;
+                                img {
+                                    @media (max-width: 400px) {
+                                        max-width: 250px;
+                                        width: 100%;
+                                        height: 250px;
+                                    }
+                                    max-width: 350px;
+                                    width: 100%;
+                                    height: 335px;
+                                }
                             }
                         }
                         .box-two-cont {
@@ -270,15 +284,22 @@
                     .box-three {
                         .list-img{
                             margin-top: 15px;
-                            img {
-                                @media (max-width: 400px) {
-                                    max-width: 250px;
-                                    width: 100%;
-                                    height: 250px;
+                            a {
+                                img {
+                                    &:hover {
+                                        opacity: 0.8;
+                                    }
                                 }
-                                max-width: 350px;
-                                width: 100%;
-                                height: 335px;
+                                img {
+                                    @media (max-width: 400px) {
+                                        max-width: 250px;
+                                        width: 100%;
+                                        height: 250px;
+                                    }
+                                    max-width: 350px;
+                                    width: 100%;
+                                    height: 335px;
+                                }
                             }
                         }
                         .box-three-cont {
@@ -308,15 +329,22 @@
                     .box-four {
                         .list-img{
                             margin-top: 15px;
-                            img {
-                                @media (max-width: 400px) {
-                                    max-width: 250px;
-                                    width: 100%;
-                                    height: 250px;
+                            a {
+                                img {
+                                    &:hover {
+                                        opacity: 0.8;
+                                    }
                                 }
-                                max-width: 350px;
-                                width: 100%;
-                                height: 335px;
+                                img {
+                                    @media (max-width: 400px) {
+                                        max-width: 250px;
+                                        width: 100%;
+                                        height: 250px;
+                                    }
+                                    max-width: 350px;
+                                    width: 100%;
+                                    height: 335px;
+                                }
                             }
                         }
                         .box-four-cont {
@@ -346,15 +374,22 @@
                     .box-five {
                         .list-img{
                             margin-top: 15px;
-                            img {
-                                @media (max-width: 400px) {
-                                    max-width: 250px;
-                                    width: 100%;
-                                    height: 250px;
+                            a {
+                                img {
+                                    &:hover {
+                                        opacity: 0.8;
+                                    }
                                 }
-                                max-width: 350px;
-                                width: 100%;
-                                height: 335px;
+                                img {
+                                    @media (max-width: 400px) {
+                                        max-width: 250px;
+                                        width: 100%;
+                                        height: 250px;
+                                    }
+                                    max-width: 350px;
+                                    width: 100%;
+                                    height: 335px;
+                                }
                             }
                         }
                         .box-five-cont {
@@ -384,15 +419,22 @@
                     .box-six {
                         .list-img{
                             margin-top: 15px;
-                            img {
-                                @media (max-width: 400px) {
-                                    max-width: 250px;
-                                    width: 100%;
-                                    height: 250px;
+                            a {
+                                img {
+                                    &:hover {
+                                        opacity: 0.8;
+                                    }
                                 }
-                                max-width: 350px;
-                                width: 100%;
-                                height: 335px;
+                                img {
+                                    @media (max-width: 400px) {
+                                        max-width: 250px;
+                                        width: 100%;
+                                        height: 250px;
+                                    }
+                                    max-width: 350px;
+                                    width: 100%;
+                                    height: 335px;
+                                }
                             }
                         }
                         .box-six-cont {
